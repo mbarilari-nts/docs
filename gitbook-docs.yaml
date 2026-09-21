@@ -16,6 +16,7 @@ site:
           default: true
           content:
             directory: ./home
+            language: it
     - type: section
       key: section-2
       title: Home
@@ -29,3 +30,4 @@ site:
           draft: true
           content:
             directory: ./home
+            language: it
