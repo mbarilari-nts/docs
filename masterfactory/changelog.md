@@ -2,7 +2,7 @@
 title: Master Factory Changelog
 description: 
 published: true
-date: 2026-09-21T10:30:46.596Z
+date: 2026-09-21T10:45:54.102Z
 tags: changelog
 editor: markdown
 dateCreated: 2026-09-21T10:30:46.596Z
@@ -14,8 +14,8 @@ dateCreated: 2026-09-21T10:30:46.596Z
 
 ### 2026-07-08
 
-- ????? Migliorata comunicazione dispositivi Marposs, migliorati messaggi di log e riconnessione.
-- ?????? Migliorata comunicazione con FactoryHub.
+- :warning::gear: Migliorata comunicazione dispositivi Marposs, migliorati messaggi di log e riconnessione.
+- :warning::gear::collision: Migliorata comunicazione con FactoryHub.
 
 > **ATTENZIONE**: Questo aggiornamento deve essere fatto insieme a Factory Hub dalla versione 
 > Changelog Factory Hub | 2026 06 17
@@ -23,8 +23,8 @@ dateCreated: 2026-09-21T10:30:46.596Z
 
 ### 2026-07-06
 
-- ????? Corretta aggiunta automatica allarmi a seguito di richieste esterne con alarmID inesistente.
-- ? Aggiunta funzionalità reasonMissing - Verifica che l’operatore abbia inserito il “giustificativo” rispetto alla reason impostata nella proprietà ReasonNoProd  nell’equipment.
+- :warning::gear: Corretta aggiunta automatica allarmi a seguito di richieste esterne con alarmID inesistente.
+- :plus: Aggiunta funzionalità reasonMissing - Verifica che l’operatore abbia inserito il “giustificativo” rispetto alla reason impostata nella proprietà ReasonNoProd  nell’equipment.
 
 ### 2026-07-02
 
@@ -32,13 +32,13 @@ dateCreated: 2026-09-21T10:30:46.596Z
 
 ### 2026-05-18
 
-- ? Ripartizione tempi uomo-macchina nei Gruppi come richiesto da oggi diventa lo standard ripartire in base al “peso” cioè la durata della fase dell’ordine di lavoro proporzionale alle altre appartenenti al gruppo.
+- :gear: Ripartizione tempi uomo-macchina nei Gruppi come richiesto da oggi diventa lo standard ripartire in base al “peso” cioè la durata della fase dell’ordine di lavoro proporzionale alle altre appartenenti al gruppo.
 
 ## Rilascio setup 2026-05-14
 
 ### 2026-05-13
 
-- ??? NetItBroker – migliorato l’aggiornamento del `clientTry2Fix` aggiorno forzato dei topic mqtt (`_Hmi.Sys.SrIstQty[1]`  e  `_Hmi.Sys.QtyScrap` quando qualcosa va in RUN da comando X5)
+- :plus_sign: NetItBroker – migliorato l’aggiornamento del `clientTry2Fix` aggiorno forzato dei topic mqtt (`_Hmi.Sys.SrIstQty[1]`  e  `_Hmi.Sys.QtyScrap` quando qualcosa va in RUN da comando X5)
 
 ## Rilascio setup 2026-03-31
 
