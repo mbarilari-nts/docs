@@ -2,7 +2,7 @@
 title: Master Factory Changelog
 description: 
 published: true
-date: 2026-09-22T08:04:02.268Z
+date: 2026-09-22T08:08:31.715Z
 tags: changelog
 editor: markdown
 dateCreated: 2026-09-21T10:30:46.596Z
@@ -17,7 +17,7 @@ dateCreated: 2026-09-21T10:30:46.596Z
 - :warning::gear: Migliorata comunicazione dispositivi Marposs, migliorati messaggi di log e riconnessione.
 - :warning::gear::collision: Migliorata comunicazione con FactoryHub.
 
-> **ATTENZIONE**: Questo aggiornamento deve essere fatto insieme a Factory Hub dalla versione 
+> **ATTENZIONE** :warning:: Questo aggiornamento deve essere fatto insieme a Factory Hub dalla versione 
 > Changelog Factory Hub | 2026 06 17
 
 ### 2026-07-06
