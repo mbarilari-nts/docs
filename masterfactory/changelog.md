@@ -2,7 +2,7 @@
 title: Master Factory Changelog
 description: 
 published: true
-date: 2026-09-21T15:23:55.285Z
+date: 2026-09-22T08:04:02.268Z
 tags: changelog
 editor: markdown
 dateCreated: 2026-09-21T10:30:46.596Z
@@ -19,7 +19,6 @@ dateCreated: 2026-09-21T10:30:46.596Z
 
 > **ATTENZIONE**: Questo aggiornamento deve essere fatto insieme a Factory Hub dalla versione 
 > Changelog Factory Hub | 2026 06 17
-{.is-warning}
 
 ### 2026-07-06
 
