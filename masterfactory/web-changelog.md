@@ -2,7 +2,7 @@
 title: Master Factory Web ChangeLog
 description: 
 published: true
-date: 2026-09-22T08:51:06.279Z
+date: 2026-09-22T08:51:24.779Z
 tags: changelog, masterfactory-web
 editor: markdown
 dateCreated: 2026-09-22T08:51:06.279Z
@@ -24,8 +24,6 @@ dateCreated: 2026-09-22T08:51:06.279Z
 ### 2026-04-28
 
 - :hammer: Corretto consumo UdM al carico nella maschera operatore HmiB. In alcune condizioni era possibile consumare su ODL in stato ARCHIVED.
-
-in corso…
 
 ## Rilascio setup 2026-03-31
 
