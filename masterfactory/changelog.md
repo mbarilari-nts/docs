@@ -2,8 +2,8 @@
 title: Master Factory Changelog
 description: 
 published: true
-date: 2026-09-22T08:32:37.802Z
-tags: changelog
+date: 2026-09-22T08:36:36.881Z
+tags: changelog, masterfactory-server
 editor: markdown
 dateCreated: 2026-09-21T10:30:46.596Z
 ---
