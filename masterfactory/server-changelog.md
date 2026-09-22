@@ -2,13 +2,13 @@
 title: Master Factory Changelog
 description: 
 published: true
-date: 2026-09-22T08:36:36.881Z
+date: 2026-09-22T08:38:34.154Z
 tags: changelog, masterfactory-server
 editor: markdown
 dateCreated: 2026-09-21T10:30:46.596Z
 ---
 
-# Master Factory changelog
+# Master Factory Server ChangeLog
 
 ## Nella prossima release…
 
