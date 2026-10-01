@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "614f239025b21510",
+    "type": "split",
+    "children": [
+      {
+        "id": "c599054f5c542814",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35d1d2b8fcdfa5ba",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/graph.json",
+                "bFile": ".obsidian/graph.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: graph.json  (Working Tree)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff9360af9d1b00a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ca0edbcef76762a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "864927a9055d9a8d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora file"
+            }
+          },
+          {
+            "id": "e026860116a83b52",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "27e9fbac7f2d298e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3bd88fd8def275e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b1bff6750bc896a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "839f5f08b37398be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti"
+            }
+          },
+          {
+            "id": "dfe2ff31df44a9ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita"
+            }
+          },
+          {
+            "id": "0f6b016190d3eef0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "2a448f0eb5ad48e5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "ddd53db6d5b14e0f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura"
+            }
+          },
+          {
+            "id": "90352127d2474998",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selettore rapido": false,
+      "daily-notes:Apri nota giornaliera": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "90352127d2474998",
+  "lastOpenFiles": [
+    "2026-10-01.md",
+    "Senza nome.canvas",
+    "Manuali/mfhmi/01_accesso_a_master_factory.md",
+    "media",
+    "Manuali/mfhmi/home.md",
+    "masterfactory/hmi-changelog.md",
+    "media/mfweb/test.png",
+    "media/mfweb/utensili.png",
+    "media/mfweb/scarti.png",
+    "media/mfweb/virtual-keyboard.png",
+    "media/mfweb/utensili-inserimento.png",
+    "media/mfweb/trasferisci.png",
+    "media/mfweb/test-dettaglio.png",
+    "media/mfweb/trasferimento-udm.png",
+    "media/mfweb/tempi-macchina.png",
+    "media/mfweb/rettifica.png",
+    "media/mfweb",
+    "Manuali/mfweb/manuale-master-factory-web.md",
+    "Manuali/mfweb/MANUALE MASTERFACTORY WEB v2025.docx",
+    "Manuali/mfweb/02_interfaccia_operatore.md",
+    "Manuali/mfweb/05_contenitore_principale.md",
+    "Manuali/mfweb/03_gestione_griglie.md",
+    "Manuali/mfweb/04_barra_di_controllo.md",
+    "Manuali/mfweb/01_accesso_a_master_factory_web.md",
+    "Manuali/mfweb",
+    "media/mfhmi",
+    "Manuali/mfhmi/99_Appendice.md",
+    "Manuali/mfhmi/04_menu.md",
+    "Manuali/mfhmi/04_08_configurazione.md",
+    "Manuali/mfhmi/04_07_report.md",
+    "Manuali/mfhmi/04_06_qualita.md",
+    "Manuali/mfhmi/04_05_manutenzione.md",
+    "Manuali/mfhmi/04_04_magazzino.md",
+    "Manuali/mfhmi/04_03_analisi-dati.md",
+    "Manuali/mfhmi/04_02_pianificazione.md",
+    "Manuali/mfhmi/04_01_produzione.md",
+    "Manuali/mfhmi/02_interfaccia_operatore.md",
+    "Manuali/mfhmi/03_gestione_griglie.md",
+    "Manuali/mfhmi",
+    "Manuali",
+    "Nuovo Documento di testo.txt"
+  ]
+}
