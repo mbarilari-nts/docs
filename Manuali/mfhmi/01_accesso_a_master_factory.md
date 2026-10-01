@@ -6,7 +6,7 @@ tags:
 
 ## PERMESSI D'ACCESSO
 
-*MASTER Factory^®^* prevede l'accesso al sistema tramite autenticazione: ogni utente che opererà nel sistema dovrà essere provvisto di credenziali rilasciate dall'amministratore di sistema, che definirà in totale autonomia quali viste e funzionalità potrà utilizzare il nuovo profilo utente.
+*MASTER Factory®* prevede l'accesso al sistema tramite autenticazione: ogni utente che opererà nel sistema dovrà essere provvisto di credenziali rilasciate dall'amministratore di sistema, che definirà in totale autonomia quali viste e funzionalità potrà utilizzare il nuovo profilo utente.
 
 ## LOGIN
 
