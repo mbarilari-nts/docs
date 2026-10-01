@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="8.8199997mm"
+   height="7.0599999mm"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <image
+     y="0"
+     x="0"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAUCAIAAAD3FQHqAAAAt0lEQVQ4ja2UQQoCMQxFf0MvoAz0Ri7Fc3gCwbXgCbyIuPM8XQwKgiLjJp1FYQjNZkb+X4UEHj9NmvB4vkopYEhCCBQQABHhsbi+hMWKnnW93XPua5xSt9tubMaqVg3LtZhzfzzsa3w6X5qMVa1OYvZIZRHnGD0rpW56iG69WsCCs2VHs8wX3Gf0OzGXpY7ld2KmpCjnSAAQ1sEBIMrzFbVok/I7YTNWzcaE9+c7DD+KL1Ftff2tEe+/SisGNKphAAAAAElFTkSuQmCC"
+     height="26.92768"
+     width="33.6596"
+     transform="matrix(1,0,0,1,0,0)"
+     preserveAspectRatio="none"
+     id="image1" />
+</svg>

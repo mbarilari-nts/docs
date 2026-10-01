@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="8.8199997mm"
+   height="7.0599999mm"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <image
+     y="0"
+     x="0"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAUCAIAAAD3FQHqAAACRElEQVQ4jZ2UMY8cRRSEq6rf7OzcrYWFAxyRGyQkHBM6hoQEy7+AiJw/g0TgBDkiRiSkiMSCAIkE0GGLAGl2526m+xXBHBbyodMuHbRaLfWnev2qHn/97Y+IApIAQJy2bAB2rW277eNqnsmeEv8XyoAzr+Z5GLYxX80RIZvktbhTULYzc76aJcZhutz0m1JCIsATpBmAM91aPUyXJGO/n87Pz2yqrGUeDbMNZMta634/SYr9YVpqI2WsDfC333x38eLl5299BuDi6cev3t7/5Kv1ML3x8PeHz1ZatrbUtj9MkuIw7pd5JhEwQYIXL17eLmj46/uszbDhWusyz4dxLyLG8bDMi0qQjdSR9dVsAOysNZd5GceDpBinaaktahNF5ZGs1hKA0622pbZxmiTFNF3W2mpNqtE68u9rGrYza81a27T2cVlqS9tOmPZNU+ze/RHA+PzBvy9t2NdbSy9LJRl2GjZtGzSQr4F27z2/qctYhdlciQkiIkohSIi86a5XoNeIa3jXpBQiosCOTd8zCiVJpI7y/d13JMGwQYlRNn2fdgz9plOEShFxHXE8efwR3v70Flr89EsasEOlUwz9xukYtn2Uaxj+MViUcpuuP38ouksAlu0oGra97Ri2267riopUSBG4d+/NL758tmboP9fl7oHe/5qAzSJ0XTdst5mOfugVUpGKAIp49OgDAD/jw1uUCUiDkG2F+qFPZ5ydnXcREaWogCcMHcEwGFghNuLObthsuhJFFE+brbaxdv7ObsjMvwFnP0VizQk4SAAAAABJRU5ErkJggg=="
+     height="26.92768"
+     width="33.6596"
+     transform="matrix(1,0,0,1,0,0)"
+     preserveAspectRatio="none"
+     id="image1" />
+</svg>
