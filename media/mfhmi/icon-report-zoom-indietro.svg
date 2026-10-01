@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="8.8199997mm"
+   height="7.0599999mm"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <image
+     y="0"
+     x="0"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAUCAIAAAD3FQHqAAABUElEQVQ4jc3UP0/CQBgG8PdKDekV0+huUhI6lehZtIOj0U0/gM7++UzG3S9g3AxEBxJjoFUIUYqBXQP0eoWFC26kgWtNCYPP+Fzz6/XNm6LvnwGsKNKqoH9sycKWc+66La/TYyHDCjYMnRBzTRY/PAtanD3n/P7hUVVzpd2ipuV8yhynSWlwenIsy5l0Vq3W6A/p0eEBQmhWlivVnIptmyRYgnl5nZ5FzCgEAJZVbHvdBAiE82Ih07T1m9u7aHl1cRaOxqktrGAasOvL82jp00DB2WRL8I2GoTtOc6503ZZRyKe2CDGHflCuVH0aTKdTGrCn55ePz69ldgIAJhNerzfaXjccjRWcNQp5CUnuW2u/tG1ZxThL/CpZztg2mdsAJKHX2jsAxHF/XDsae28HABK4FFaU0/Nbmxva3Kl4XsnpD/xFCJb7TwihJa24rNL6BXc5ftbkajKpAAAAAElFTkSuQmCC"
+     height="26.92768"
+     width="33.6596"
+     transform="matrix(1,0,0,1,0,0)"
+     preserveAspectRatio="none"
+     id="image1" />
+</svg>

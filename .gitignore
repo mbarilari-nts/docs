@@ -1,0 +1,15 @@
+# Ignora file di cache e workspace locale di Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File temporanei o esportazioni locali
+*.tmp
+/dist/
+/site/
