@@ -9,7 +9,7 @@ tags:
 
 ## LOGIN
 
-All'avvio di *MASTER Factory^®^* apparirà la maschera di login, dove ogni operatore dovrà autenticarsi per potere accedere al sistema.
+All'avvio di *MASTER Factory®* apparirà la maschera di login, dove ogni operatore dovrà autenticarsi per potere accedere al sistema.
 
 ![Maschera di login](./media/login.png)
 *Maschera di login*
