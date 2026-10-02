@@ -122,7 +122,7 @@ Per confermare l'intera operazione è necessario cliccare sul tasto `CONFERMA`, 
 
 Permette di cambiare stato - sia a una singola fase sia a tutto l'ordine - cliccando sulla riga della griglia. Gli stati sono qui di seguito rappresentati:
 
-![img](./media/pianificazione-ordini-cambi-stato.png)
+![](pianificazione-ordini-pulsanti-cambi-stato.png.png)
 
 A seconda dello stato corrente dell'ordine / fase scelta alcuni stati potrebbero non essere assegnabili. In questo caso, il tasto non sarà attivo.
 

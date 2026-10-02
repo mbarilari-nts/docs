@@ -1,8 +1,8 @@
 # REPORT
 
-| icona | funzionalità |
-| ---- | ---- |
-| ![img](./media/icon-report.png) | In questa *form* è possibile visualizzare i report. |
+| icona                      | funzionalità                                        |
+| -------------------------- | --------------------------------------------------- |
+| ![](media/icon-report.png) | In questa *form* è possibile visualizzare i report. |
 
 La *form* dei report è divisa in due schede: REPORT e APPLICATION REPORT. Qui di seguitò è descritta la sola scheda REPORT, considerato che l'altra varia a seconda delle richieste del cliente.
 
@@ -96,7 +96,7 @@ Dopo avere selezionato il report da modificare, cliccare sul tasto ![img](./medi
 
 ### INSERIMENTO NUOVO REPORT
 
-Cliccare sul tasto ![img](./media/griglia-nuova-colonna-calcolata.png) fa aprire la vista di DESIGN del report. Ora il report è pronto per essere creato.
+Cliccare sul tasto ![img](icon-nuova-colonna-calcolata.png) fa aprire la vista di DESIGN del report. Ora il report è pronto per essere creato.
 
 ### REPORT DESIGNER
 

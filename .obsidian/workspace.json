@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manuali/mfhmi/01_accesso_a_master_factory.md",
+                "file": "Manuali/mfhmi/04_07_report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_accesso_a_master_factory"
+              "title": "04_07_report"
             }
           }
         ]
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manuali/mfhmi/01_accesso_a_master_factory.md",
+                "file": "Manuali/mfhmi/04_07_report.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,9 +196,15 @@
   },
   "active": "09bce76469ff0445",
   "lastOpenFiles": [
+    "Manuali/mfhmi/media/icon-report.png",
+    "Manuali/mfhmi/04_02_pianificazione.md",
+    "Manuali/mfhmi/media/pianificazione-ordini-pulsanti-cambi-stato.png.png",
     "Manuali/mfhmi/03_gestione_griglie.md",
-    "Manuali/mfhmi/02_interfaccia_operatore.md",
+    "Manuali/mfhmi/media/icon-modifica-colonna-calcolata.png",
+    "Manuali/mfhmi/media/icon-nuova-colonna-calcolata.png",
+    "Manuali/mfhmi/media/icon-personalizza-griglia.png",
     "Manuali/mfhmi/01_accesso_a_master_factory.md",
+    "Manuali/mfhmi/02_interfaccia_operatore.md",
     "masterfactory/web-changelog.md",
     "favicon.svg",
     "image.png",
@@ -210,10 +216,6 @@
     "Manuali/mfweb/media/utensili.png",
     "Manuali/mfweb/media/utensili-inserimento.png",
     "Manuali/mfweb/media/trasferisci.png",
-    "Manuali/mfweb/media/trasferimento-udm.png",
-    "Manuali/mfweb/media/test.png",
-    "Manuali/mfweb/media/test-dettaglio.png",
-    "Manuali/mfweb/media/tempi-macchina.png",
     "Manuali/mfweb/03_gestione_griglie.md",
     "Manuali/mfweb/manuale-master-factory-web.md",
     "Manuali/mfweb/MANUALE MASTERFACTORY WEB v2025.docx",
@@ -229,7 +231,6 @@
     "Manuali/mfhmi/04_05_manutenzione.md",
     "Manuali/mfhmi/04_03_analisi-dati.md",
     "Manuali/mfhmi/04_04_magazzino.md",
-    "Manuali/mfhmi/04_02_pianificazione.md",
     "Manuali/mfweb",
     "Manuali/mfhmi",
     "Manuali",

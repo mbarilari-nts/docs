@@ -337,7 +337,7 @@ Cliccare su `OK` per rendere effettive le modifiche.
 #### CREARE UNA NUOVA RIGA DI CAUSALE
 
 Per impostare una nuova causale è necessario eseguire l'operazione di modifica appena descritta perché, come spiegato in premessa, si deve ridurre l'arco temporale della prima causale per far spazio a quella che si va a inserire. Questa accortezza è necessaria affinché, dall'unione delle due causali, il risultato sia sempre il tempo totale. Per facilitare questa operazione, una volta cliccato sul tasto
-![img](./media/griglia-nuova-colonna-calcolata.png), il sistema crea una nuova riga di causale, il cui tempo è risultato della differenza tra il tempo totale e quello espresso nella prima causale.
+![img](icon-nuova-colonna-calcolata.png), il sistema crea una nuova riga di causale, il cui tempo è risultato della differenza tra il tempo totale e quello espresso nella prima causale.
 
 **Esempio**:
 
@@ -353,7 +353,7 @@ Cliccando sulla riga, e poi sul tasto ![img](./media/icon-modifica.png), andiamo
 |---------------------|-------------------------|----------------|--------------|
 | 12/01/2019 10:30:00 | 12/01/2019 10:**35**:00 | Fermo macchina | 00:**05**:00 |
 
-Il totale ora è di 5 minuti, pertanto possiamo inserire una nuova causale il cui tempo è di 10 minuti (10+5= 15 minuti iniziali). Quindi, cliccando si ![img](./media/griglia-nuova-colonna-calcolata.png), il sistema creerà una nuova riga così composta:
+Il totale ora è di 5 minuti, pertanto possiamo inserire una nuova causale il cui tempo è di 10 minuti (10+5= 15 minuti iniziali). Quindi, cliccando si ![img](icon-nuova-colonna-calcolata.png), il sistema creerà una nuova riga così composta:
 
 | From                | To                      | Reason     | Total        |
 |---------------------|-------------------------|------------|--------------|
