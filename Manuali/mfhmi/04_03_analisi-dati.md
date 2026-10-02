@@ -6,11 +6,11 @@ La sezione analisi dati serve per monitorare la produzione, gestire le performan
 
 | icona | funzionalità |
 | ---- | ---- |
-| ![img](icon-analisi-produzione.png) | Questa *form* permette di monitorare lo status degli ordini, analizzando i tempi e lo status delle macchine e l'utilizzo dei materiali. |
+| ![img](./media/icon-analisi-produzione.png) | Questa *form* permette di monitorare lo status degli ordini, analizzando i tempi e lo status delle macchine e l'utilizzo dei materiali. |
 
 L'interfaccia della *form* di produzione è così rappresentata:
 
-![img](analisi-produzione.png)
+![img](./media/analisi-produzione.png)
 
 ### SEZIONE FILTRI
 
@@ -68,7 +68,7 @@ Questa funzionalità potrebbe tornare utile nei seguenti casi:
 
 Per impostare manualmente una quantità, cliccare sul tasto `dichiara consumabile`; si aprirà una *form* che riporta le righe della selezione corrente relative agli utilizzi dei materiali CONSUMABLE. Nella colonna evidenziata in rosso, nella figura sottostante, sono mostrate le quantità d'utilizzo previste, mentre quelle evidenziate in giallo sono le quantità effettive che l'operatore può modificarle manualmente.
 
-![Dichiara consumabile](dichiara-consumabile.png)
+![Dichiara consumabile](./media/dichiara-consumabile.png)
 
 È possibile impostare le quantità del materiale utilizzato in due modalità
 
@@ -83,7 +83,7 @@ Esiste un materiale per un ordine il cui utilizzo è di tipo "Consumabile" e fa 
 
 #### ESPORTAZIONE DATI{#esportazione-dati-materiali-in-produzione}
 
-Tutti i risultati possono essere esportati in Excel o stampati agendo sui tasti ![Esporta excel e stampa](esporta-excel-stampa.png).
+Tutti i risultati possono essere esportati in Excel o stampati agendo sui tasti ![Esporta excel e stampa](./media/esporta-excel-stampa.png).
 
 ### TEMPI MACCHINA
 
@@ -91,7 +91,7 @@ In questa scheda è mostrata la visualizzazione degli ordini, da raggruppare sec
 
 Il risultato è il seguente:
 
-![Analisi dati - tempi macchina](analisi-dati-tempi-macchina.png)
+![Analisi dati - tempi macchina](./media/analisi-dati-tempi-macchina.png)
 
 La griglia, dopo essere stata raggruppata per: `Turno` &#10132; `Macchina` &#10132; `Giorno`, mostra i dati visualizzati: quello con maggior rilevanza è il codice dello status macchina, identificato sia in modo alfanumerico sia visivo tramite i seguenti colori di base
 
@@ -112,7 +112,7 @@ Scheda molto simile a quella dei tempi macchina, solo che al suo interno si può
 
 | Icona | Funzionalità |
 | ---- | ---- |
-| ![Icona - Analisi dati Performance](icon-analisi-dati-performance.png) | In questa *form* viene monitorato lo status dell'impianto: disponibilità, efficienza e tasso di qualità. Ossia, ciò che è definito come [O.E.E.](#calcolo-oee) |
+| ![Icona - Analisi dati Performance](./media/icon-analisi-dati-performance.png) | In questa *form* viene monitorato lo status dell'impianto: disponibilità, efficienza e tasso di qualità. Ossia, ciò che è definito come [O.E.E.](#calcolo-oee) |
 
 ### CALCOLO O.E.E.
 
@@ -147,7 +147,7 @@ $$ \text{Quality \%} = (\text{GoodProducts } ) / \text{ RealProduction} \times
 
 L'interfaccia della performance come nella figura sottostante:
 
-![Analisi dati - performance](analisi-dati-performance.png)
+![Analisi dati - performance](./media/analisi-dati-performance.png)
 
 #### FILTRAGGIO DATI{#filtraggio-dati-performance}
 
@@ -161,7 +161,7 @@ Ovviamente l'effetto dei filtri si applica nel momento in cui si clicca sul puls
 
 #### ESPORTAZIONE DATI{#esportazione-dati-performance}
 
-Tutti i risultati possono essere esportati in Excel oppure stampati agendo sui tasti ![Esporta excel e stampa](esporta-excel-stampa.png).
+Tutti i risultati possono essere esportati in Excel oppure stampati agendo sui tasti ![Esporta excel e stampa](./media/esporta-excel-stampa.png).
 
 #### VISUALIZZAZIONE: GRID TAB
 
@@ -172,25 +172,25 @@ Tutti i risultati esportati possono essere visualizzati in 2 modalità:
 | **GRID** | È la modalità standard con la quale vengono visualizzati i dati ed è quella di default che compare all'avvio della funzione. |
 | **TABS** | Fornisce le stesse informazioni ma mostrandole in forma di tabella aggregata. È più comoda per analizzare una singola macchina in un singolo periodo (per esempio nella modalità RealTime) |
 
-![Analisi dati - Performance - Visualizzazione tabs](analisi-dati-performance-tabs.png)
+![Analisi dati - Performance - Visualizzazione tabs](./media/analisi-dati-performance-tabs.png)
 
 ## TEMPI DI PRODUZIONE
 
 | Icona | Funzionalità |
 | :---- | :---- |
-| ![Analisi dati - Tempi di produzione](icon-analisi-dati-tempi-di-produzione.png) | In questa *form* è possibile monitorare i GANTT relativi ai tempi di produzione di macchine e persone |
+| ![Analisi dati - Tempi di produzione](./media/icon-analisi-dati-tempi-di-produzione.png) | In questa *form* è possibile monitorare i GANTT relativi ai tempi di produzione di macchine e persone |
 
 ### INTERFACCIA DATI
 
 L'interfaccia dei tempi di produzione appare come nella figura sottostante:
 
-![img](image77.png)
+![img](./media/image77.png)
 
 #### FILTRAGGIO DATI{#filtraggio-dati-tempi-di-produzione}
 
 Il filtraggio dati si esegue tramite il box "Filtra per". Nello specifico, si eseguono le seguenti operazioni:
 
-![Analisi dati - Tempi di produzione - filtraggio dati](analisi-dati-tempi-di-produzione-filtraggio-dati.png)
+![Analisi dati - Tempi di produzione - filtraggio dati](./media/analisi-dati-tempi-di-produzione-filtraggio-dati.png)
 
 1. "Dal Al": serve per impostare un arco temporale di ricerca;
 2. "Causale": impostare la causale/causali che si desidera visualizzare;
@@ -203,10 +203,10 @@ Per impostare la causale/i di visualizzazione per la quale si desidera filtrare 
 Le causali si raggiungono attraverso il seguente percorso: `Configuratore` &#10132; `Generale` &#10132; `Causali` &#10132; `Causali`.
 
 Dopo aver cliccato sul menu a tendina "Tipologia Causale"
-![Tempi di produzione - Selezione tipologia causale](tempi-di-produzione-selezione-tipologia-causale.png)
+![Tempi di produzione - Selezione tipologia causale](./media/tempi-di-produzione-selezione-tipologia-causale.png)
 
 apparirà l'elenco delle categorie disponibili:
-![Tempi di produzione - Selezione causale](tempi-di-produzione-selezione-causale.png)
+![Tempi di produzione - Selezione causale](./media/tempi-di-produzione-selezione-causale.png)
 
 Spuntando la prima colonna, riferita alla categoria della causale preferita, si visualizza l'elenco di tutte le causali disponibili.
 
@@ -225,40 +225,40 @@ La maschera si suddivide in due parti:
 
 La lettura di un gantt si esegue nel seguente modo:
 
-- Arco temporale giornaliero ![img](gantt-arco-temporale.png)
+- Arco temporale giornaliero ![img](./media/gantt-arco-temporale.png)
 
-- Fasce orarie della giornata divise in quarti d'ora![img](gantt-vista-reasons-macchine.png)
+- Fasce orarie della giornata divise in quarti d'ora![img](./media/gantt-vista-reasons-macchine.png)
 
-- Elemento su cui si basa il gantt (in esempio una macchina) ![img](gantt-vista-reasons-macchine.png)
+- Elemento su cui si basa il gantt (in esempio una macchina) ![img](./media/gantt-vista-reasons-macchine.png)
 
 - Status dell'elemento in una determinata fascia oraria
-  ![img](gantt-vista-reasons-macchine.png)
+  ![img](./media/gantt-vista-reasons-macchine.png)
 
 Posizionandosi con il mouse sulla barra degli stati, apparire un *tooltip* che mostra la descrizione dello status e la sua durata, incluso la fascia temporale di inizio e fine.
 
-![img](gantt-vista-dettaglio-reason.png)
+![img](./media/gantt-vista-dettaglio-reason.png)
 
 ### GANTT PER MACCHINA
 
 Per visualizzare i gantt relativi alle macchine è necessario cliccare sul tasto `Macchine` evidenziato in figura, e di seguito sul tasto `Filtra`
 
-![img](tempi-produzione-filtri.png)
+![img](./media/tempi-produzione-filtri.png)
 
 In base alla selezione effettuata nell'albero nodi, che definisce la struttura dello stabilimento, si vedranno:
 
-| se selezionato ![img](icon-production-line.png) | Gantt di tutte le macchine che compongono il reparto |
+| se selezionato ![img](./media/icon-production-line.png) | Gantt di tutte le macchine che compongono il reparto |
 | ---- | ---- |
-| se selezionato ![img](icon-work-cell.png){style="width:1em"} | Il solo Gantt della macchina scelta |
+| se selezionato ![img](./media/icon-work-cell.png){style="width:1em"} | Il solo Gantt della macchina scelta |
 
 Nell'esempio che segue è stata selezionata una production line dall'albero nodi; pertanto, sono visibili più macchine:
 
-![img](gantt-vista-reasons-production-line.png)
+![img](./media/gantt-vista-reasons-production-line.png)
 
 #### RAGGRUPPAMENTI PER CATEGORIA
 
 È possibile raggruppare i gantt per categoria spuntando la voce `Raggruppa GANTT per categorie`. In tale modo si ottiene il risultato mostrato nell'immagine sottostante.
 
-| ![img](gantt-vista-reasons-non-raggruppata.png) | ![img](gantt-vista-reasons-raggruppata.png) |
+| ![img](./media/gantt-vista-reasons-non-raggruppata.png) | ![img](./media/gantt-vista-reasons-raggruppata.png) |
 | :--: | ---- |
 | GANTT non raggruppato per categoria | GANTT raggruppato per categoria |
 
@@ -270,7 +270,7 @@ Mostra il GANTT dei tempi macchina. I gantt posso essere raggruppati come di seg
 
 È possibile raggruppare i dati del dettaglio in 3 modi distinti, selezionabili dal box `Raggruppamento`:
 
-![img](analisi-dati-raggruppamento.png)
+![img](./media/analisi-dati-raggruppamento.png)
 
 - Commessa, ODL
 - Data
@@ -282,19 +282,19 @@ Raggruppa il dettaglio nel seguente modo:
 
 Questo raggruppamento permette di vedere gli status macchina nel seguente modo:
 
-![img](analisi-dati-raggruppamento-commessa.png)
+![img](./media/analisi-dati-raggruppamento-commessa.png)
 
 #### RAGGRUPPAMENTO PER DATA
 
 Questo raggruppamento permette di raggruppare tutti gli eventi per singola data che rientra nel range di date impostate nel filtro iniziale.
 
-![img](analisi-dati-raggruppamento-data.png)
+![img](./media/analisi-dati-raggruppamento-data.png)
 
 #### RAGGRUPPAMENTO PER MACCHINA
 
 È il raggruppamento di default: gli status vengono raggruppati per macchina e ordinati secondo la data di evento. In altri termini, si tratta di una trasposizione in verticale del gantt stesso.
 
-![img](analisi-dati-raggruppamento-macchina.png)
+![img](./media/analisi-dati-raggruppamento-macchina.png)
 
 ### RAGGRUPPAMENTO 2° LIVELLO
 
@@ -311,22 +311,22 @@ Per ogni raggruppamento descritto in precedenza, è possibile eseguire un raggru
 
 Sulla base delle indicazioni sotto riportare, è possibile agire manualmente su ogni riga mostrata in dettaglio al fine di modificare i tempi o eliminarli.
 
-Selezionare la riga per la quale si desidera modificare i tempi e cliccare sul tasto ![img](icon-modifica.png): tale operazione comanda l'apertura della maschera che mostra la riga della causale e i relativi tempi.
+Selezionare la riga per la quale si desidera modificare i tempi e cliccare sul tasto ![img](./media/icon-modifica.png): tale operazione comanda l'apertura della maschera che mostra la riga della causale e i relativi tempi.
 Ora è possibile eseguire le seguenti operazioni:
 
 1. Modificare una riga;
 2. Creare una nuova riga di causale;
 3. Unire più righe di causale.
 
-![img](modifica-causale-macchina.png)
+![img](./media/modifica-causale-macchina.png)
 
 Per quanto concerne i punti 1 e 2, qualora si apporti una modifica temporale, è IMPORTANTE sapere che bisogna sempre rispettare il tempo totale che la macchina ha calcolato. Quindi, nel caso 1, se si modifica l'ora d'inizio e quella di fine, ne consegue che la durata deve rimanere invariata. Nel caso del punto 2, si può creare una nuova riga solo in relazione alla riduzione temporale di un tempo già esistente, mantenendo la somma dei tempi uguale a quella iniziale.
 
 #### MODIFICARE UNA RIGA
 
-Per modificare una riga, selezionarla e cliccare sul tasto ![img](icon-modifica.png), in modo da comandare l'apertura dell'editor:
+Per modificare una riga, selezionarla e cliccare sul tasto ![img](./media/icon-modifica.png), in modo da comandare l'apertura dell'editor:
 
-![img](modifica-causale-macchina-dettaglio.png)
+![img](./media/modifica-causale-macchina-dettaglio.png)
 
 Ora è possibile modificare i contenuti.
 
@@ -337,7 +337,7 @@ Cliccare su `OK` per rendere effettive le modifiche.
 #### CREARE UNA NUOVA RIGA DI CAUSALE
 
 Per impostare una nuova causale è necessario eseguire l'operazione di modifica appena descritta perché, come spiegato in premessa, si deve ridurre l'arco temporale della prima causale per far spazio a quella che si va a inserire. Questa accortezza è necessaria affinché, dall'unione delle due causali, il risultato sia sempre il tempo totale. Per facilitare questa operazione, una volta cliccato sul tasto
-![img](griglia-nuova-colonna-calcolata.png), il sistema crea una nuova riga di causale, il cui tempo è risultato della differenza tra il tempo totale e quello espresso nella prima causale.
+![img](./media/griglia-nuova-colonna-calcolata.png), il sistema crea una nuova riga di causale, il cui tempo è risultato della differenza tra il tempo totale e quello espresso nella prima causale.
 
 **Esempio**:
 
@@ -347,13 +347,13 @@ Supponiamo di voler modificare la causale "Fermo macchina" che va dal 12/01/2019
 |---------------------|---------------------|----------------|----------|
 | 12/01/2019 10:30:00 | 12/01/2019 10:45:00 | Fermo macchina | 00:15:00 |
 
-Cliccando sulla riga, e poi sul tasto ![img](icon-modifica.png), andiamo a modificare l'arco temporale come segue:
+Cliccando sulla riga, e poi sul tasto ![img](./media/icon-modifica.png), andiamo a modificare l'arco temporale come segue:
 
 | Dal                 | Al                      | Causale        | Totale       |
 |---------------------|-------------------------|----------------|--------------|
 | 12/01/2019 10:30:00 | 12/01/2019 10:**35**:00 | Fermo macchina | 00:**05**:00 |
 
-Il totale ora è di 5 minuti, pertanto possiamo inserire una nuova causale il cui tempo è di 10 minuti (10+5= 15 minuti iniziali). Quindi, cliccando si ![img](griglia-nuova-colonna-calcolata.png), il sistema creerà una nuova riga così composta:
+Il totale ora è di 5 minuti, pertanto possiamo inserire una nuova causale il cui tempo è di 10 minuti (10+5= 15 minuti iniziali). Quindi, cliccando si ![img](./media/griglia-nuova-colonna-calcolata.png), il sistema creerà una nuova riga così composta:
 
 | From                | To                      | Reason     | Total        |
 |---------------------|-------------------------|------------|--------------|
@@ -369,7 +369,7 @@ Una volta eseguita una divisione dei tempi, qualora si desiderasse unirli, si do
 Per visualizzare i gantt relativi al Personale è necessario cliccare sul tasto `Personnel` evidenziato in figura, poi impostare i filtri temporali di ricerca e, dopo ancora, cliccare sul tasto `Filtra`. In questo modo è possibile reperire le informazioni di tutte le persone assegnate al nodo prescelto. Qualora si volesse applicare un filtro per persona, è sufficiente inserire nel campo `Person` il codice
 personale dell'operatore.
 
-![img](analisi-dati-gantt-personale-filtri.png)
+![img](./media/analisi-dati-gantt-personale-filtri.png)
 
 Analogamente a quanto avviene per le macchine, il sistema mostra i tempi lavorativi di ogni singolo operatore che rientrano nell'arco temporale impostato nel filtro di ricerca.
 

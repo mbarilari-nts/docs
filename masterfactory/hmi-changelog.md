@@ -1,9 +1,11 @@
 ---
 title: Master Factory HMI ChangeLog
-description: 
+description:
 published: true
 date: 2026-09-22T08:46:39.210Z
-tags: changelog, masterfactory-hmi
+tags:
+  - changelog
+  - masterfactoryhmi
 editor: markdown
 dateCreated: 2026-09-22T08:46:39.210Z
 ---

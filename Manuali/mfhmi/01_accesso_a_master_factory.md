@@ -1,7 +1,6 @@
 ---
 tags:
 ---
-
 # ACCESSO A MASTER FACTORY
 
 ## PERMESSI D'ACCESSO
@@ -12,7 +11,7 @@ tags:
 
 All'avvio di *MASTER Factory^®^* apparirà la maschera di login, dove ogni operatore dovrà autenticarsi per potere accedere al sistema.
 
-![Maschera di login](login.png)
+![Maschera di login](./media/login.png)
 *Maschera di login*
 
 I campi proposti sono i seguenti:

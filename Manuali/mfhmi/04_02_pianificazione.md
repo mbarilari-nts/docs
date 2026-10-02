@@ -10,11 +10,11 @@ Gli Ordini di lavoro, anche denominati ODL o Production Request, rappresentano l
 
 | icona | funzionalità |
 | ---- | ---- |
-| ![img](icon-ordini-di-produzione.png) | La maschera Ordine di Produzione provvede a dare una panoramica totale degli ordini di lavoro in corso. |
+| ![img](./media/icon-ordini-di-produzione.png) | La maschera Ordine di Produzione provvede a dare una panoramica totale degli ordini di lavoro in corso. |
 
 In questa maschera, la scelta della macchina o del reparto di produzione dall'albero nodi non inficia nessuna azione di filtering sui dati. Gli unici filtri applicabili sono i seguenti:
 
-![img](pianificazione-filtri.png)
+![img](./media/pianificazione-filtri.png)
 
 | | Voce | Descrizione |
 | :---- | :---- | :---- |
@@ -39,7 +39,7 @@ Al termine della compilazione dei filtri, per eseguire la ricerca cliccare sul t
 
 ### CREAZIONE NUOVO ORDINE DI PRODUZIONE
 
-![img](creazione-nuovo-ordine-di-produzione.png)
+![img](./media/creazione-nuovo-ordine-di-produzione.png)
 
 |     | Nome     | Descrizione                                 |
 |-----|----------|---------------------------------------------|
@@ -51,17 +51,17 @@ Al termine della compilazione dei filtri, per eseguire la ricerca cliccare sul t
 | 6   | UoM      | Unità di misura                             |
 | 7   | Crea     | Conferma creazione ordine di produzione     |
 
-Utilizzando il tasto ![img](icon-creazione-nuovo-ordine-di-produzione-seleziona-prodotto.png){style="width:1.4em"} si aprirà la seguente finestra nella quale si potrà selezionare il prodotto desiderato:
+Utilizzando il tasto ![img](./media/icon-creazione-nuovo-ordine-di-produzione-seleziona-prodotto.png){style="width:1.4em"} si aprirà la seguente finestra nella quale si potrà selezionare il prodotto desiderato:
 
-![img](creazione-nuovo-ordine-di-produzione-seleziona-prodotto-.png)
+![img](./media/creazione-nuovo-ordine-di-produzione-seleziona-prodotto-.png)
 
 La griglia degli ordini di lavoro è così composta:
 
-![img](pianificazione-ordini-griglia.png)
+![img](./media/pianificazione-ordini-griglia.png)
 
 La riga evidenziata in azzurro rappresenta la commessa, mentre quelle evidenziate in giallo rappresentano gli Ordini di lavoro. Quando l'ordine di lavoro viene espanso nei dettagli, esso mostra tutte le fasi di lavoro (riga evidenziata in verde nell'immagine sottostante).
 
-![img](pianificazione-ordini-griglia-espansa.png)
+![img](./media/pianificazione-ordini-griglia-espansa.png)
 
 Tramite la selezione delle righe corrispondenti agli ODL, nella parte bassa del *form* viene mostrato il dettaglio di tutte le informazioni associate alle fasi all'ordine (es. note, materiali, operatori, macchine ecc.).
 
@@ -78,19 +78,19 @@ L'esecuzione del `dispatch` è applicabile ai soli ODL che presentano fasi nello
 
 Supponiamo di avere un ordine di lavoro numero '201900009', composto da 4 fasi, di cui una è composta a sua volta da 2 sottofasi.
 
-![img](ordine-fasi-sottofasi.png)
+![img](./media/ordine-fasi-sottofasi.png)
 
 Come si può notare lo status è di colore bianco, ciò significa che
 l'intero ordine è nello stato PIANIFICATO.
 
 Cliccando sul tasto `Dispatch` si apre la maschera sotto riportata, che permette di associare le varie fasi agli equipment. Non è necessario selezionare l'ordine per il quale si effettua l'operazione di dispatching, perché il sistema provvede a mostrare sempre tutte le fasi che sono in stato PIANIFICATO (in base ai dati ottenuti in fase di ricerca).
 
-![img](dispatch-ordini.png)
+![img](./media/dispatch-ordini.png)
 
 Selezionando la fase **1** per cui si desidera assegnare un equipment, il sistema provvederà a suggerire tutte le fasi che hanno la stessa tipologia di processo di quella selezionata, al fine di rilasciarle tutte e valutare il carico macchine. Per eseguire l'assegnazione, dopo aver spuntato le fasi desiderate, cliccare sull'elenco **2** dove saranno presenti tutti gli equipment assegnabili. Una volta assegnato
 l'equipment, lo stato della fase passa da PIANIFICATO a SCHEDULATO; pertanto, non sarà più visibile nell'elenco delle fasi in dispatching **G1**, ma sarà presente nella griglia **G2** e nel gantt sottostante **G3**.
 
-In caso di errore o ripensamento: selezionare la fase schedulata e cliccare sul tasto ![img](image142.png) **3** in modo da annullare l'associazione e riportarla in stato PIANIFICATO.
+In caso di errore o ripensamento: selezionare la fase schedulata e cliccare sul tasto ![img](./media/image142.png) **3** in modo da annullare l'associazione e riportarla in stato PIANIFICATO.
 
 Spuntando il checkbox **4** `Raggruppa fasi` tutte le fasi selezionate, oltre ad avere lo stesso equipment, assumono uno stato di unione fino al termine dell'esecuzione. Le fasi rimangono unite a seguito di:
 
@@ -100,17 +100,17 @@ Spuntando il checkbox **4** `Raggruppa fasi` tutte le fasi selezionate, oltre ad
 
 Eseguito il lavoro di dispatching il risultato finale sarà questo:
 
-![img](fasi-ordini-dispatching.png)
+![img](./media/fasi-ordini-dispatching.png)
 
 Evidenziato in giallo, tutte le fasi che ora hanno l'associazione a un
 equipment. Cliccando sul tasto `Materiali` **5** si visualizza lo storico a magazzino
 dei materiali:
 
-![img](materiali-fase-dispatching.png)
+![img](./media/materiali-fase-dispatching.png)
 
 Selezionando la sezione `Carico macchine` **5,** si visualizza un grafico rappresentante il tempo di carico di ogni singola macchina.
 
-![img](grafico-carico-macchine.png)
+![img](./media/grafico-carico-macchine.png)
 
 Per confermare l'intera operazione è necessario cliccare sul tasto `CONFERMA`, affinché le fasi siano validamente schedulate.
 
@@ -130,7 +130,7 @@ A seconda dello stato corrente dell'ordine / fase scelta alcuni stati potrebbero
 
 La fase si può suddividere in più sottofasi nel modo di seguito descritto: selezionare la fase che si desidera dividere e cliccare sul tasto `Split`. Tale operazione fa aprire la maschera sottostante:
 
-![img](pianificazione-ordini-split-fase.png)
+![img](./media/pianificazione-ordini-split-fase.png)
 
 La *form* permette di suddividere la fase in due modi:
 
@@ -139,7 +139,7 @@ La *form* permette di suddividere la fase in due modi:
 
 Confermando tramite il tasto `Conferma`, il risultato ottenuto sarà il seguente:
 
-![img](pianificazione-ordini-risultato-split-fase.png)
+![img](./media/pianificazione-ordini-risultato-split-fase.png)
 
 L'operazione di Splitting è irreversibile: una volta che la suddivisione della fase in sottofasi è stata eseguita, non sarà più possibile né riunire le fasi né modificarne le quantità da produrre.
 
@@ -147,7 +147,7 @@ L'operazione di Splitting è irreversibile: una volta che la suddivisione della 
 
 In ogni fase, cliccando sulla riga, vengono visualizzati tutti i dettagli a essa associati, nella parte bassa della *form*.
 
-![img](pianificazione-ordini-dettaglio-fase.png)
+![img](./media/pianificazione-ordini-dettaglio-fase.png)
 
 Nello specifico, è possibile vedere:
 
@@ -156,9 +156,9 @@ Nello specifico, è possibile vedere:
 - **D3** - Quantità da produrre
 - **B1** - Si trovano i seguenti dati relativi alla produzione:
 
-![img](dettaglio-fase-colonne-materiali.png)
+![img](./media/dettaglio-fase-colonne-materiali.png)
 
-![img](dettaglio-fase-contatori-produzione.png)
+![img](./media/dettaglio-fase-contatori-produzione.png)
 
 | | Descrizione | | Descrizione |
 | :--: | :---- | :----: | :---- |
@@ -189,11 +189,11 @@ Nella scheda note è possibile inserire delle note destinate a essere visualizza
 
 |  | Descrizione |
 | ---- | :---- |
-| ![img](icons-note-comandi.png) | Permette di visualizzare il messaggio<br>Permette di creare un nuovo messaggio<br>Modifica un messaggio già esistente<br>Abilita la visualizzazione pop-up |
+| ![img](./media/icons-note-comandi.png) | Permette di visualizzare il messaggio<br>Permette di creare un nuovo messaggio<br>Modifica un messaggio già esistente<br>Abilita la visualizzazione pop-up |
 
 Durante la creazione di un messaggio vengono richiesti i seguenti valori:
 
-![img](note-editor-messaggio.png)
+![img](./media/note-editor-messaggio.png)
 
 | Campo | Descrizione |
 | :-- | :-- |
@@ -209,33 +209,33 @@ Dopo aver inserito il messaggio nell'area di testo **1**, cliccare sul tasto `In
 
 #### MATERIALI
 
-![img](lista-materiali-fase.png)
+![img](./media/lista-materiali-fase.png)
 
 La scheda materiali è utilizzabile per la consultazione e permette la visualizzazione (in formato tabellare) dei materiali che vengono trattati nella fase selezionata (Consumed, consumable ecc…).
 
 I seguenti tasti sono situati di fianco alla griglia riepilogativa:
 
-- ![img](icon-materiali-fase-udm-presenti-magazzino.png) Permette di conoscere quante udm sono presenti in magazzino in relazione all'articolo della riga selezionata sulla griglia
-- ![img](icon-materiali-fase-allegati.png) Permette di visualizzare degli allegati associati ai materiali in relazione all'articolo della riga selezionata sulla griglia
-- ![img](icon-materiali-fase-modifica-proprietà.png) Permette di modificare le proprietà del materiale/prodotto selezionato.
+- ![img](./media/icon-materiali-fase-udm-presenti-magazzino.png) Permette di conoscere quante udm sono presenti in magazzino in relazione all'articolo della riga selezionata sulla griglia
+- ![img](./media/icon-materiali-fase-allegati.png) Permette di visualizzare degli allegati associati ai materiali in relazione all'articolo della riga selezionata sulla griglia
+- ![img](./media/icon-materiali-fase-modifica-proprietà.png) Permette di modificare le proprietà del materiale/prodotto selezionato.
 
 #### MACCHINE
 
-In questa scheda è possibile vedere le macchine che sono disponibili per la fase selezionata. Per modificare la macchina assegnata a una fase, cliccare sul tasto ![img](icon-materiali-fase-modifica-proprietà.png) il software provvederà a mostrare una maschera che permette di assegnare alla fase una nuova macchina tra quelle presenti in elenco.
+In questa scheda è possibile vedere le macchine che sono disponibili per la fase selezionata. Per modificare la macchina assegnata a una fase, cliccare sul tasto ![img](./media/icon-materiali-fase-modifica-proprietà.png) il software provvederà a mostrare una maschera che permette di assegnare alla fase una nuova macchina tra quelle presenti in elenco.
 
-![img](macchine-richieste.png)
+![img](./media/macchine-richieste.png)
 
 #### PERSONALE
 
 In questa griglia è solo possibile consultare l'elenco del personale assegnato alla fase selezionata.
 
-![img](personale.png)
+![img](./media/personale.png)
 
 #### DIPENDENZE
 
 Nella scheda `dipendenze` sono mostrate due griglie che evidenziano le dipendenze di esecuzione tra le varie fasi. Nell'immagine sottostante si evince che la fase selezionata **0030** avrà luogo solo dopo che sarà terminata la fase **0020**
 
-![img](dipendenze-fase.png)
+![img](./media/dipendenze-fase.png)
 
 #### PRODUZIONE, MATERIALI IN PRODUZIONE, TEMPI MACCHINA, TEMPI PERSONALE
 
@@ -245,13 +245,13 @@ I dati descritti in queste schede sono gli stessi spiegati nel capitolo `ANALISI
 
 Nella scheda `proprietà` sono descritte tutte le proprietà relativa alla fase selezionata. Nello specifico, è possibile modificare eventuali valori (nei limiti delle autorizzazioni permesse all'utente).
 
-![img](lista-proprietà.png)
+![img](./media/lista-proprietà.png)
 
 ## FUNZIONE DI PIANIFICAZIONE FASI
 
 | Icona | Funzionalità |
 | ---- | :---- |
-| ![img](icon-ordini-di-produzione.png) | La maschera di pianificazione offre una panoramica di tutte le fasi lavorative e la gestione della loro schedulazione. |
+| ![img](./media/icon-ordini-di-produzione.png) | La maschera di pianificazione offre una panoramica di tutte le fasi lavorative e la gestione della loro schedulazione. |
 
 I dati presenti in questa maschera variano in base al reparto di produzione o alla macchina selezionati nell'albero nodi A e sono:
 
@@ -261,9 +261,9 @@ I dati presenti in questa maschera variano in base al reparto di produzione o al
 - Sequenze
 - Elenco dei materiali richiesti
 
-![img](albero-nodi.png)
+![img](./media/albero-nodi.png)
 
-![img](fasi.png)
+![img](./media/fasi.png)
 
 ### ELENCO DELLE FASI LAVORATIVE ORDINATE PER DATA ESECUZIONE
 
@@ -273,7 +273,7 @@ Nel box **P7** sono mostrate tutte le operazioni che dovrebbero essere eseguite 
 
 Il gantt macchina mostra la disposizione temporale delle fasi lavorative riferite alla macchina / macchine scelte.
 
-![img](fasi-gantt-macchine.png)
+![img](./media/fasi-gantt-macchine.png)
 
 Nell'esempio grafico è stata selezionata l'intera area di produzione, ma vengono mostrate solo le macchine per cui esistono degli ordini.
 
@@ -281,17 +281,17 @@ Nell'esempio grafico è stata selezionata l'intera area di produzione, ma vengon
 
 Il gantt delle commesse mostra la disposizione temporale delle fasi lavorative riferite alle commesse nelle macchine scelte dall'albero nodi **A**.
 
-![img](fasi-gantt-commesse.png)
+![img](./media/fasi-gantt-commesse.png)
 
 ### SEQUENZA
 
-L'interfaccia delle sequenze è pari a quella ottenuta tramite la pressione del tasto `Sequenza` ![img](icon-tasto-sequenza.png), che verrà descritta più avanti.
+L'interfaccia delle sequenze è pari a quella ottenuta tramite la pressione del tasto `Sequenza` ![img](./media/icon-tasto-sequenza.png), che verrà descritta più avanti.
 
 ### ELENCO DEI MATERIALI UTILIZZATI
 
 L'elenco dei materiali utilizzati mostra la richiesta dei materiali richiesti dalle fasi lavorative.
 
-![img](image173.png)
+![img](./media/image173.png)
 
 L'elenco dei materiali richiesti è filtrabile anche secondo i seguenti attributi:
 
@@ -323,15 +323,15 @@ Per rendere automatico l'aggiornamento dei dati, mettere la spunta sul checkbox 
 
 ### AGGIORNAMENTO MANUALE DEI DATI
 
-Per non rendere automatico l'aggiornamento della lista operazioni, omettere la spunta sul checkbox `Auto Aggiorna` **P5**. Il sistema controlla se vi sono variazioni di stato; qualora si verificasse questa condizione, il tasto ![img](icon-forza-aggiornamento-dati.png) `Aggiorna` **P4** si attiva e l'operatore può aggiornare i dati manualmente.
+Per non rendere automatico l'aggiornamento della lista operazioni, omettere la spunta sul checkbox `Auto Aggiorna` **P5**. Il sistema controlla se vi sono variazioni di stato; qualora si verificasse questa condizione, il tasto ![img](./media/icon-forza-aggiornamento-dati.png) `Aggiorna` **P4** si attiva e l'operatore può aggiornare i dati manualmente.
 
 Qualora si desideri un maggiore spazio visivo per la visualizzazione delle fasi lavorative, lo si può ottenere eliminando la spunta dal checkbox `Mostra dettaglio` **P5**. nascondere il box **P8** contenente il dettaglio delle fasi. Tale dettaglio è stato descritto nei capitoli precedenti.
 
 ### TASTO SEQUENZA
 
-![img](icon-tasto-sequenza.png) **P1** Il tasto sequenza permette di aprire una *form* che mostra tutte le fasi, macchina per macchina; selezionare lo stato che si desidera vedere tramite gli appositi filtri **S1**.
+![img](./media/icon-tasto-sequenza.png) **P1** Il tasto sequenza permette di aprire una *form* che mostra tutte le fasi, macchina per macchina; selezionare lo stato che si desidera vedere tramite gli appositi filtri **S1**.
 
-![img](gestione-fasi.png)
+![img](./media/gestione-fasi.png)
 
 Le operazioni ammissibili in questa *form* dipendono dallo status selezionato in **S1**.
 
@@ -346,15 +346,15 @@ Le operazioni ammissibili in questa *form* dipendono dallo status selezionato in
 
 Permette di raggruppare una serie di fasi in un unico gruppo, per fare ciò cliccare sul tasto `Nuovo Gruppo`, che fa aprire la seguente maschera:
 
-![img](creazione-gruppo-fasi.png)
+![img](./media/creazione-gruppo-fasi.png)
 
 Ora si devono selezionare le fasi cliccando sulla relativa casella, nell'ordine preferito. Spuntando la casella `materiali` vengono mostrati i materiali di ogni fase, allo scopo di migliorare l'accuratezza del raggruppamento. Una volta eseguite le selezioni, cliccando sul tasto `Conferma` si ottiene il seguente risultato:
 
 Senza gruppo
-![img](lista-fasi-senza-gruppo.png)
+![img](./media/lista-fasi-senza-gruppo.png)
 
 Con il gruppo
-![img](lista-fasi-con-gruppo.png)
+![img](./media/lista-fasi-con-gruppo.png)
 
 #### RILASCIA IN SCHEDULATO
 
@@ -400,14 +400,14 @@ Permette di manipolare i gruppi esistenti. Nello specifico, questa funzione sudd
 
 Per suddividere un gruppo esistente, selezionare una fase qualsiasi del gruppo tramite checkbox, poi cliccare sul tasto `Split/Join Gruppo`. In questo modo, la maschera ottenuta è visualizzata come sotto mostrato:
 
-![img](fasi-split-gruppo.png)
+![img](./media/fasi-split-gruppo.png)
 
 Ora è possibile selezionare le fasi che si desidera estrarre dal gruppo: lasciare selezionata la voce `sposta gli ordini selezionati in un nuovo gruppo` e cliccare su `Assegna`.
 
 Il risultato è il seguente:
 
-![img](fasi-gruppo-unico.png)
-![img](fasi-gruppi-separati.png)
+![img](./media/fasi-gruppo-unico.png)
+![img](./media/fasi-gruppi-separati.png)
 
 Nell'esempio sopra riportato sono state spostate le fasi 0030 (PF 103-BN) e 0010 (PF 102) dal gruppo G00000046 a un nuovo gruppo (generato automaticamente dal sistema) G00000048
 
@@ -415,7 +415,7 @@ Nell'esempio sopra riportato sono state spostate le fasi 0030 (PF 103-BN) e 0010
 
 per unire uno o più gruppi, selezionare una fase del gruppo che si desidera unire, poi cliccare sul tasto `Split/Join Gruppo`. La maschera che si ottiene è come quella di seguito mostrata:
 
-![img](image187.png)
+![img](./media/image187.png)
 
 Selezionando la voce `Sposta gli ordini selezionati in un Gruppo esistente` si abilita il pannello **P1** dove si trova l'elenco di tutti i gruppi e nel quale si può spostare le fasi selezionate del pannello **P2**. Per spostare una o più fasi, selezionare le fasi, poi cliccare sul tasto `Assegna`. Per validare (e rendere effettive) le modifiche, cliccare sul tasto `Conferma`.
 

@@ -4,11 +4,11 @@
 
 | Icona | Funzionalità |
 | :---- | :---- |
-| ![img](icon-produzione.png) | Permette agli operatori la gestione completa di tutte le fasi sulle macchine, a seconda delle loro autorizzazioni. |
+| ![img](./media/icon-produzione.png) | Permette agli operatori la gestione completa di tutte le fasi sulle macchine, a seconda delle loro autorizzazioni. |
 
 La vista dei macchinari che compaiono nella scheda operatore è subordinata alla selezione effettuata nell'albero nodi. Selezionando la `production line` si ottiene il risultato riepilogativo di tutte le macchine, come quella mostrata qui di seguito:
 
-![img](vista-linea-produzione.png)
+![img](./media/vista-linea-produzione.png)
 
 Ogni riquadro rappresenta un macchinario, e la colorazione ne identifica il suo status:
 
@@ -21,7 +21,7 @@ Ogni riquadro rappresenta un macchinario, e la colorazione ne identifica il suo 
 
 All'interno del riquadro - che rappresenta la macchina - sono presenti le seguenti informazioni:
 
-![img](quadro-macchina.png)
+![img](./media/quadro-macchina.png)
 
 |  1  | Rappresenta il nome della macchina   | 5   | Quantità di pezzi da produrre |
 |:---:|--------------------------------------|-----|-------------------------------|
@@ -31,7 +31,7 @@ All'interno del riquadro - che rappresenta la macchina - sono presenti le seguen
 
 In caso di allarme, cliccare sul riquadro colorato che indica lo status della macchina **2** per aprire una maschera che permette di assegnare una causale di fermo per motivi d'allarme.
 
-![img](modifica-reason.png)
+![img](./media/modifica-reason.png)
 
 Nel riquadro **A1** sono disponibili le seguenti opzioni:
 
@@ -41,22 +41,22 @@ Nel riquadro **A1** sono disponibili le seguenti opzioni:
 
 Quando si clicca sul riquadro della macchina (fatta eccezione nell'area del riquadro dello status **2**) si accede all'interno della relativa scheda di gestione dati. Tale scheda è suddivisa nelle seguenti sezioni (poste nella parte bassa della maschera evidenziata all'interno del riquadro rosso):
 
-![img](tab-produzione-dettaglio-ordine.png)
+![img](./media/tab-produzione-dettaglio-ordine.png)
 
 | PRODUZIONE | PREPARAZIONE | CARICO | UDP | FERMI | UTENTI |
 |------------|--------------|--------|-----|-------|--------|
 
-In ogni schermata è presente - in basso a destra - il seguente tasto ![img](icon-torna-vista-linea.png) che permette di tornare alla vista riepilogativa di tutte le macchine.
+In ogni schermata è presente - in basso a destra - il seguente tasto ![img](./media/icon-torna-vista-linea.png) che permette di tornare alla vista riepilogativa di tutte le macchine.
 
 ### TAB PRODUZIONE
 
 La scheda "produzione" permette all'operatore di gestire tutte le fasi degli ordini di produzione per la macchina selezionata. Nello specifico, l'operatore può cambiare gli status di ogni fase, sempre mantenendo sotto controllo tutti i dati associati, quali materiali, macchine richieste, personale, ecc. Nell'immagine sottostante, si mostra come appare l'interfaccia.
 
-![img](tab-produzione-stato-fase.png)
+![img](./media/tab-produzione-stato-fase.png)
 
 La seguente sezione, visibile nella Tab `Produzione`, è descritta nel capitolo `DISPATCH DI UN ODL`.
 
-![img](tab-produzione-dettaglio-ordine.png)
+![img](./media/tab-produzione-dettaglio-ordine.png)
 
 Le fasi visibili in questa griglia sono filtrabili per il loro status, rappresentato graficamente da un colore.
 
@@ -82,17 +82,17 @@ Le funzioni disponibili per le fasi dell'ordine di lavoro sono le seguenti:
 
 **P1** permette di preparare gli UDC in base al materiale richiesto dalle lavorazioni presenti in macchina. La preparazione di un UDC è possibile solo se lo stato dell'ordine è in `PREPARAZIONE`, altrimenti viene permesso di apportare solo la modifica. Cliccando sul tasto `Prepara` si apre la seguente maschera:
 
-![img](image199.svg)
+![img](./media/image199.svg)
 
-In **P.A1** è mostrato il gruppo per il quale è in atto la preparazione dei materiali. Per ogni gruppo, sono visualizzate le righe **P.A2** dei materiali richiesti, raggruppati per classe merceologica. L'icona ![img](image200.png) indica che per tale gruppo non è stato ancora caricato alcun materiale. Facendo clic sopra ogni riga si aprirà il seguente pannello:
+In **P.A1** è mostrato il gruppo per il quale è in atto la preparazione dei materiali. Per ogni gruppo, sono visualizzate le righe **P.A2** dei materiali richiesti, raggruppati per classe merceologica. L'icona ![img](./media/image200.png) indica che per tale gruppo non è stato ancora caricato alcun materiale. Facendo clic sopra ogni riga si aprirà il seguente pannello:
 
-![img](prepara-fase-materiale.png)
+![img](./media/prepara-fase-materiale.png)
 
 Nella griglia **P.B1** è mostrato il materiale e la relativa quantità richiesta per il gruppo. Qualora siano presenti due fasi lavorative appartenenti allo stesso gruppo, allora la gestione del materiale per loro richiesto viene eseguita insieme.
 
 Per preparare gli UDC con il materiale richiesto, cliccare sul tasto **P.B3** `Preleva per l'ordine selezionato`, in modo da fare aprire la seguente maschera:
 
-![img](prepara-fase-materiale-prelievo.png)
+![img](./media/prepara-fase-materiale-prelievo.png)
 
 Questa maschera permette all'operatore di prelevare dal magazzino il materiale richiesto, specificandone la quantità. Nel pannello azzurro sono contenute le informazioni generali del materiale richiesto. Il pannello grigio contiene il campo UDM **P.C1**: una volta inserito il codice identificativo dell'UDM (manualmente o letto tramite barcode), il pannello permette di vedere le specifiche e assegnare la quantità prelevata **P.C2**. Per confermare l'operazione premere il tasto
 **P.C3** `Conferma`. Nel caso in cui non si desideri prelevare l'intero UDM, ma solo parte di esso, e si voglia aggiornare la sua etichetta, procedere come di seguito descritto: dopo aver indicato in **P.C2** la quantità da prelevare, premere il tasto **P.C4** `Conferma e stampa` in modo da confermare il carico del materiale e inoltre avviare la stampa di due nuove etichette, una con i dati per l'UDM prelevato e l'altra con i dati per l'UDM rimanente.
@@ -100,13 +100,13 @@ Questa maschera permette all'operatore di prelevare dal magazzino il materiale r
 > [!Note]
 > Solo quando si trattano i gruppi di fasi si deve tenere conto dell'ordine di carico: in questo caso il software impone di eseguire il carico del materiale partendo dall'ultima fase del gruppo (l'ordine di inserimento è descritto nella prima colonna **P.B7**), al fine di ottenere il materiale ordinato in base alle lavorazioni da eseguire.
 
-![img](ordine-inserimento-preparazione-materiale.png)
+![img](./media/ordine-inserimento-preparazione-materiale.png)
 
 ##### ELIMINARE UNA PREPARAZIONE
 
 Selezionando l'UDM da **P.B2** e poi cliccando sul tasto **P.B4** `Rendi` si può eliminare l'intero materiale assegnato o una parte di esso, come mostrato dalla maschera sottostante:
 
-![img](rendi-da-preparazione.png)
+![img](./media/rendi-da-preparazione.png)
 
 In **P.D1** si indica la quantità di materiale da rendere, mentre in **P.D2** se ne indica la causale.
 
@@ -122,7 +122,7 @@ attributi **P.D4** e lo storage zone **P.D5** in cui essa sarà creata. È anche
 
 L'operazione di dichiarare manualmente il consumo di un materiale viene eseguita quando si desidera consumare le quantità di materiale disponibile e attribuirgli una causa di consumo oppure di scarto. Si proceda nel modo seguente: selezionare il materiale e cliccare sul tasto `Consuma`, in modo da fare aprire la maschera (immagine sottostante) in cui l'operatore imposta la quantità di materiale consumato e la causale.
 
-![img](consuma-da-produzione.png)
+![img](./media/consuma-da-produzione.png)
 
 ##### CHIUSURA UDC E TERMINAZIONE PREPARAZIONE
 
@@ -144,7 +144,7 @@ Selezionando da **P.A6** la tab `Storage Zone` è possibile consultare l'interfa
 
 Il tasto **P2** `Dichiara` permette di dichiarare manualmente il quantitativo di produzione oppure il quantitativo di scarti. Tale funzionalità è disponibile solo sulle macchine in cui non è attivo un servizio di conteggio di produzione automatico e su quelle fasi in cui lo stato è *In Esecuzione.* La maschera di questa operazione è mostrata qui di seguito:
 
-![img](image211.png)
+![img](./media/image211.png)
 
 Scegliendo in **P.E2** se si tratta di materiale prodotto o scartato, in **P.E1** si può anche inserire la quantità. In **P.E3** è contenuto l'elenco dei materiali richiesti insieme alla loro disponibilità, mentre in **P.E5** sono contenute le caratteristiche a essi associate. Nella fase di dichiarazione di produzione, qualora il quantitativo inserito - in **P.E1** - fosse superiore a quello dei materiali richiesti caricati, allora il dichiarato verrà corretto automaticamente alla massima produzione ammissibile. Per completezza in **P.E4** vengono mostrati gli UDM di appartenenza del materiale.
 
@@ -190,7 +190,7 @@ Il tasto **P8** permette di sequenziare le fasi lavorative. Tale funzionalità �
 La scheda di preparazione mostra un riepilogo di tutti i materiali che sono stati preparati in una zona di magazzino adiacente alla macchina: può essere utile sia per il carico sia per lo scarico. L'utilizzo di questa maschera è facoltativo, in quanto l'operatore potrebbe caricare direttamente il materiale in macchina passando dalla maschera nel tab `carico`. La maschera si presenta come nell'immagine sottostante e
 offre le seguenti funzionalità:
 
-![img](image212.png)
+![img](./media/image212.png)
 
 | | | | |
 | - | - | - | - |
@@ -206,7 +206,7 @@ offre le seguenti funzionalità:
 
 Si può caricare manualmente del materiale in preparazione inserendo il relativo codice identificativo nel campo **Pr1** e poi cliccando sul tasto `Carica in preparazione`, che farà aprire la *form* di trasferimento materiale:
 
-![img](trasferimento.png)
+![img](./media/trasferimento.png)
 
 In questa maschera l'operatore può scegliere in quale gate **Pr.A1** trasferire i materiali e le quantità indicate in **Pr.A2**. Qualora venissero rilevate delle incongruenze tra il quantitativo indicato nell'UDM e l'effettiva quantità fisica dell'UDM stesso, allora contestualmente si può selezionare la voce `Rettifica quantità` in modo da apportare le rettifiche di giacenza. In fase di trasferimento materiale è anche possibile inserire dati aggiuntivi quali:
 
@@ -216,11 +216,11 @@ In questa maschera l'operatore può scegliere in quale gate **Pr.A1** trasferire
 
 Apponendo la spunta sulla voce **Pr.A6** `Stampa`, in fase di conferma viene avviata anche la stampa della nuova etichetta.
 
-Eseguita questa procedura, nella griglia **Pr0** viene aggiunta una nuova riga. La nuova riga è facilmente identificabile in quanto "non impegnata", poiché non è stata assegnata a nessun ODL (la prima colonna della griglia non presenta il simbolo del lucchetto ![img](icon-lucchetto.png)).
+Eseguita questa procedura, nella griglia **Pr0** viene aggiunta una nuova riga. La nuova riga è facilmente identificabile in quanto "non impegnata", poiché non è stata assegnata a nessun ODL (la prima colonna della griglia non presenta il simbolo del lucchetto ![img](./media/icon-lucchetto.png)).
 
 #### ESCLUDI UDM IMPEGNATO
 
-Impostando il check **Pr3** è possibile visualizzare nella griglia **Pr0** solo i materiali che non sono impegnati, ossia tutti quelli che non appartengono ad alcun ODL. Nella prima colonna non è presente il lucchetto ![img](icon-lucchetto.png).
+Impostando il check **Pr3** è possibile visualizzare nella griglia **Pr0** solo i materiali che non sono impegnati, ossia tutti quelli che non appartengono ad alcun ODL. Nella prima colonna non è presente il lucchetto ![img](./media/icon-lucchetto.png).
 
 #### AGGIORNA
 
@@ -230,7 +230,7 @@ Il tasto **Pr4** `Aggiorna` permette di aggiornare il contenuto della griglia **
 
 Il tasto **Pr5** `Collaudo` permette l'esecuzione di un test qualitativo sul materiale preparato. Selezionare il materiale e pigiare il tasto **Pr5** `Collaudo` per aprire la seguente maschera:
 
-![img](test-materiale.png)
+![img](./media/test-materiale.png)
 
 Nel box **Pr.B1** si vedono tutti i dati inerenti il materiale prescelto, mentre la griglia **Pr.B2** mostra tutti i collaudi compatibili per i quali si possono eseguire i test. Tramite la selezione di un collado **Pr.B2**, e poi cliccando sul tasto **Pr.B3** `Carica collaudo selezionato`, si visualizza nel riquadro **Pr.B4** tutti i dati di cui il collaudo prescelto impone la compilazione. Una volta
 eseguita la compilazione dei dati richiesti, cliccare sul tasto `OK` per validare e rendere effettivo il collado stesso.
@@ -239,7 +239,7 @@ eseguita la compilazione dei dati richiesti, cliccare sul tasto `OK` per validar
 
 Il tasto **Pr6** permette di associare degli UDM a un UDC nuovo o già esistente, in modo da permettere la gestione della movimentazione simultanea degli UDM. Per eseguire questa operazione è necessario selezionare in **Pr0** il materiale e poi cliccare sul tasto **Pr6** `Prepara UDC` per mostrare la maschera, come da esempio sottostante.
 
-![img](prepara-udc.png)
+![img](./media/prepara-udc.png)
 
 Ora è possibile eseguire 3 operazioni:
 
@@ -259,7 +259,7 @@ Inserendo l'identificativo dell'UDC nel campo **Pr.C1**, e premendo il tasto INV
 
 Per inserire un UDM dentro un Nuovo UDC, è necessario cliccare sul tasto **Pr.C2** `Crea UDC`, in modo da aprire una maschera che riporta il nuovo codice assegnato al nuovo UDC e tutte le caratteristiche. All'operatore è lasciata la possibilità d'inserire la descrizione.
 
-![img](crea-udc.png)
+![img](./media/crea-udc.png)
 
 Una volta che l'UDC è stato creato, si potrà inserire l'UDM nella modalità descritta nel paragrafo precedente (Inserire l'UDM scelto in un UDC esistente)
 
@@ -267,18 +267,18 @@ Una volta che l'UDC è stato creato, si potrà inserire l'UDM nella modalità de
 
 #### RETTIFICA
 
-Il tasto **Pr7** `rettifica` è attivo solo quando si seleziona un UDM che non è impegnato (non è presente il simbolo ![img](icon-lucchetto.png)) in alcun ordine; questo permette di modificare la quantità di materiale **Pr.D1**
+Il tasto **Pr7** `rettifica` è attivo solo quando si seleziona un UDM che non è impegnato (non è presente il simbolo ![img](./media/icon-lucchetto.png)) in alcun ordine; questo permette di modificare la quantità di materiale **Pr.D1**
 precedentemente associato e assegnare la causale **Pr.D2**. Qui di seguito è mostrata la maschera per eseguire quanto descritto.
 
-![img](rettifica.png)
+![img](./media/rettifica.png)
 
 Nel campo **Pr.D1** `Rettifica Quantità`, inserire il nuovo quantitativo e poi cliccare su **Pr.D3** `Conferma` per validare e rendere attiva la modifica. Questa operazione è necessaria nel caso in cui si rilevino delle incongruenze tra il quantitativo indicato nell'UDM e l'effettiva quantità fisica dell'UDM stesso.
 
 #### TRASFERISCI
 
-Il tasto **Pr8** `Trasferisci` è attivo solo quando viene selezionato un UDM che non è impegnato in alcun ordine (non è presente il simbolo ![img](icon-lucchetto.png)). Esso permette di spostare l'intero quantitativo di un UDM a magazzino. Durante tale operazione è possibile apportare delle rettifiche di giacenza per rettificare eventuali incongruenze tra il quantitativo indicato nell'UDM e l'effettiva quantità fisica dell'UDM stesso. Per eseguire questo spostamento, selezionare l'UDM dalla lista **Pr0**, poi cliccare sul tasto **Pr8** `Trasferisci`, che farà aprire la maschera (sotto mostrata a titolo di esempio).
+Il tasto **Pr8** `Trasferisci` è attivo solo quando viene selezionato un UDM che non è impegnato in alcun ordine (non è presente il simbolo ![img](./media/icon-lucchetto.png)). Esso permette di spostare l'intero quantitativo di un UDM a magazzino. Durante tale operazione è possibile apportare delle rettifiche di giacenza per rettificare eventuali incongruenze tra il quantitativo indicato nell'UDM e l'effettiva quantità fisica dell'UDM stesso. Per eseguire questo spostamento, selezionare l'UDM dalla lista **Pr0**, poi cliccare sul tasto **Pr8** `Trasferisci`, che farà aprire la maschera (sotto mostrata a titolo di esempio).
 
-![img](media/mfhmi/trasferisci.png)
+![img](./media/media/mfhmi/trasferisci.png)
 
 Selezionare dalla lista **Pr.E1** il magazzino su cui trasferire la quantità di materiale indicata nel box **Pr.E2**. Cliccare su `conferma` per validare e rendere effettivo il trasferimento.
 
@@ -298,7 +298,7 @@ Il tasto **Pr11** `Ristampa UDC` permette di ristampare l'etichetta dell'UDC del
 
 Ecco come appare la maschera della scheda `CARICO`.
 
-![img](carico.png)
+![img](./media/carico.png)
 
 La griglia **C1** contiene tutti gli UDM che sono in corso di lavoro nel momento corrente, mentre la griglia **C2** contiene tutti gli UDM caricati in macchina, pronti per essere utilizzati nelle varie lavorazioni.
 
@@ -310,7 +310,7 @@ Il tasto **C0** `Carica` permette di caricare in macchina l'UDM indicato nel cam
 
 Il tasto **C5** `Consuma` permette di dichiarare manualmente il consumo di materiale. Quella sotto riportata è la maschera dove si effettua questa operazione.
 
-![img](consuma.png)
+![img](./media/consuma.png)
 
 In **C6.A1** è possibile inserire la data di rettifica (in automatico è configurata la data corrente) e poi inserire in **C6.A2** la quantità effettiva dell'UDM. Il sistema provvede in automatico a calcolare la differenza della quantità di materiale consumato. È inoltre possibile dichiarare il motivo della rettifica in **C6.A3**, scegliendo l'opzione tra quelle sotto riportate:
 
@@ -324,7 +324,7 @@ Tale operazione non è fattibile se l'UDM non è stato mai consumato almeno una 
 Il tasto **C6** `Scarica` permette di scaricare degli UDM a magazzino; se essi sono raggruppati in un UDC, allora viene scaricato l'intero UDC. Durante tale operazione è possibile apportare delle rettifiche alle eventuali incongruenze tra il quantitativo indicato nell'UDM e l'effettiva quantità fisica dell'UDM stesso. Per eseguire questo spostamento, selezionare l'UDM dalla lista **C2** e cliccare sul
 tasto **C6** `Scarica`, che farà aprire la maschera (anche sotto riportata a titolo di esempio):
 
-![img](scarica.png)
+![img](./media/scarica.png)
 
 - **C6.A1** permette di selezionare dove verrà scaricato il materiale.
 - **C6.A2** permette di selezionare la data di scarico.
@@ -344,7 +344,7 @@ Il tasto **C7** `Rendi` si comporta come il tasto **C6** `Scarica`, con la diffe
 
 La procedura è già stata descritta nel paragrafo PRODUZIONE – `Eliminare una preparazione`.
 
-![img](rendi.png)
+![img](./media/rendi.png)
 
 #### ATTIVA
 
@@ -366,7 +366,7 @@ Il tasto **C4** `Collaudo` permette di aprire la scheda di collaudo per il mater
 
 Il funzionamento della scheda UDP dipende dalla configurazione applicata in fase d'installazione del software. Si può scegliere se attribuire o no all'operatore la possibilità di suddividere un UDP (Presente nella griglia **U1**, e attiva solo in questo caso) in vari UDM; diversamente, il prodotto finito viene già assegnato a un nuovo UDM, che è generato in automatico.
 
-![img](produzione-udp.png)
+![img](./media/produzione-udp.png)
 
 - **U1** elenco degli UDP in fase di WIP (Work In Progress) per i quali si può eseguire le seguenti funzionalità.
 - **U2** elenco degli UDM sia `confermati` che `da confermare` per i quali è possibile eseguire le seguenti funzionalità.
@@ -374,7 +374,7 @@ Il funzionamento della scheda UDP dipende dalla configurazione applicata in fase
 - **U4** `Rettifica` Rettifica la quantità degli UDP presenti nella griglia, funzionalità descritta nel paragrafo [PREPARAZIONE – Rettifica](#rettifica).
 - **U5** `Collaudi` permette di creare eseguire un collaudo sull'UDP selezionato, funzionalità descritta nel paragrafo [PREPARAZIONE – Collaudi](#collaudo) I collaudi eseguiti su questi UDP vengono ereditati da tutti gli UDM in seguito generati.
 - **U6** Filtrare la visualizzazione ai solo `confermati` o `non confermati` o tutti.
-- **U7** `Trasferisci` permette di trasferire l'intero UDM in magazzino, qualora  l'UDM fosse ![img](image228.png) *da confermare* dopo questa operazione diventa `confermato` (funzionalità descritta nel paragrafo [PREPARAZIONE - Preparazione di un UDM](#trasferisci)).
+- **U7** `Trasferisci` permette di trasferire l'intero UDM in magazzino, qualora  l'UDM fosse ![img](./media/image228.png) *da confermare* dopo questa operazione diventa `confermato` (funzionalità descritta nel paragrafo [PREPARAZIONE - Preparazione di un UDM](#trasferisci)).
 - **U8** `Rettifica` Rettifica la quantità degli UDM presenti nella griglia. Questa operazione determina anche la correzione della quantità prodotta sull'Ordine di lavoro (funzionalità descritta nel paragrafo [PREPARAZIONE – Rettifica](#rettifica)).
 - **U9** `Trasferisci Qta` permette di trasferire una parte o l'intero UDM in uno nuovo o già esistente (funzionalità descritta nel paragrafo [PREPARAZIONE – Trasferisci Qta](#trasferisci-qta)).
 - **U10** `Ristampa UDP` permette di ristampare l'etichetta di un UDP.
@@ -385,20 +385,20 @@ Il funzionamento della scheda UDP dipende dalla configurazione applicata in fase
 
 In questa maschera è possibile vedere tutti i tempi di produzione della macchina in oggetto e modificarne la causale. Per modificare la causale, dopo aver selezionato una voce dalla griglia **T1**, cliccare sul tasto **T2** `Modifica causale`, che farà aprire la maschera riportante tutte le causali associabili al tempo macchina selezionato.
 
-![img](produzione-fermi-modifica-causale.png)
+![img](./media/produzione-fermi-modifica-causale.png)
 
 Poi cliccare sulla causale prescelta e poi sul tasto `Conferma` per validare la variazione.
 
-![img](produzione-fermi-scelta-nuova-causale.png)
+![img](./media/produzione-fermi-scelta-nuova-causale.png)
 
-Utilizzare i tasti ![img](pulsante-su.png) e ![img](pulsante-giu.png) del gruppo **T3** per allargare o restringere il range di ore dei tempi macchina visualizzati.
+Utilizzare i tasti ![img](./media/pulsante-su.png) e ![img](./media/pulsante-giu.png) del gruppo **T3** per allargare o restringere il range di ore dei tempi macchina visualizzati.
 
 ### TAB: UTENTI
 
 In questa maschera sono presenti tutti gli utenti **U1** che sono autenticati sulla macchina selezionata. È possibile aggiungere degli operatori manualmente inserendo in **U2** il PIN *Personal Identification Number* dell'operatore e poi cliccando su **U3**. Per motivi di sicurezza in fase d'inserimento del PIN, la digitazione è
 occultata.
 
-![img](produzione-utenti.png)
+![img](./media/produzione-utenti.png)
 
 Nel caso in cui si decidesse di disabilitare un operatore, dopo averlo selezionato da **U1** è necessario cliccare sul tasto `Disattiva` **U4**.
 
@@ -406,11 +406,11 @@ Nel caso in cui si decidesse di disabilitare un operatore, dopo averlo seleziona
 
 | Icona | Funzionalità |
 | :---- | :---- |
-| ![img](icon-materiali-richiesti.png) | Permette di caricare i materiali richiesti nell'ordine sulle macchine. |
+| ![img](./media/icon-materiali-richiesti.png) | Permette di caricare i materiali richiesti nell'ordine sulle macchine. |
 
 In questa interfaccia avviene la preparazione delle macchine, caricando i materiali richiesti nell'ordine **Mr11**. Essi si potranno scegliere tra le Udm disponibili nelle varie ubicazioni e verranno spostati nei magazzini di entrata o di preparazione delle corrispettive macchine.
 
-![img](materiali-richiesti.png)
+![img](./media/materiali-richiesti.png)
 
 Le Udm che abbiamo nei vari magazzini vengono suddivise in sezioni, in base alla conformità con l'ordine e in quale ubicazione si trovano:
 
@@ -424,19 +424,19 @@ Le Udm che abbiamo nei vari magazzini vengono suddivise in sezioni, in base alla
 
 Una volta che il codice dell'Udm è stato digitato manualmente **Mr1** o letto tramite barcode, cliccando sul pulsante carica **Mr2** si potrà trasferire il materiale all'interno delle ubicazioni di macchina.
 
-![img](materiali-richiesti-carica.png)
+![img](./media/materiali-richiesti-carica.png)
 
 ### CARICA PARZIALE
 
 Il tasto Carica parziale **Mr3** è praticamente identico al pulsante Carica **Mr2**, unica differenza è che al suo interno si può scegliere in che Udm trasferire il materiale.
 
-![img](materiali-richiesti-carica-parziale.png)
+![img](./media/materiali-richiesti-carica-parziale.png)
 
 ### CARICA MULTIPLO
 
 Il tasto Carica Multiplo **Mr4** ha la funzionalità di poter caricare più Udm alla volta.
 
-![img](materiali-richiesta-trasferimento-multiplo.png)
+![img](./media/materiali-richiesta-trasferimento-multiplo.png)
 
 ### TRASFERIMENTO DA PREPARAZIONE
 
@@ -446,29 +446,29 @@ Con questa funzionalità **Mr5** si potrà effettuare il trasferimento delle Udm
 
 | Icona | Funzionalità |
 | :---- | :---- |
-| ![img](icon-allarmi.png) | Permette di visualizzare tutti gli allarmi e gli errori che vengono riscontrati durante la produzione. |
+| ![img](./media/icon-allarmi.png) | Permette di visualizzare tutti gli allarmi e gli errori che vengono riscontrati durante la produzione. |
 
 In questa sezione vengono riportate tutte le anomalie relative alle linee di produzione o alle singole macchine, in modo che si possa intervenire sul problema e, di conseguenza, verificarne le cause e arrivare ad una soluzione.
 
-![img](allarmi.png)
+![img](./media/allarmi.png)
 
 Nella maschera degli allarmi troviamo una tabella **Al5** nella quale vengono riportate tutte le segnalazioni, le quali posso essere poi filtrate, cliccando il tasto Filtra **Al3**, rispettivamente per data **Al1**, aggiungendo dei parametri **Al3** oppure specificando il Livello di Allarme **Al4:**
 
-![img](allarmi-livelli.png)
+![img](./media/allarmi-livelli.png)
 
 La maschera degli errori è pressoché identica a quella degli allarmi, cambiano solo i campi filtrabili di seguito riportati:
 
-![img](allarmi-filtri.png)
+![img](./media/allarmi-filtri.png)
 
 ## MAPPA REPARTO
 
 | Icona | Funzionalità |
 | :---- | :---- |
-| ![img](icon-mappa-reparto.png) | Permette di creare delle mappe di reparto interattive. |
+| ![img](./media/icon-mappa-reparto.png) | Permette di creare delle mappe di reparto interattive. |
 
 Nell'interfaccia `Mappe di reparto` è possibile creare delle mappe interattive per consultare lo status delle macchine. La visualizzazione della mappa è legata alla scelta effettuata sull'albero nodi dello stabilimento. Per ogni nodo è possibile avere una o più mappe. Di seguito è riportato un esempio di mappa:
 
-![img](mappa-reparto.png)
+![img](./media/mappa-reparto.png)
 
 **M1** è l'area in cui è visualizzata la mappa interattiva. La mappa mostra dei riquadri colorati riportanti i nomi delle macchine in essa presenti. Quando un riquadro viene cliccato, esso mostra i dati (nel riquadro **M2**) relativi alla macchina a esso associati. La colorazione di ogni singolo riquadro varia a seconda dello status della macchina e può avere le seguenti colorazioni:
 
@@ -481,21 +481,21 @@ Nell'interfaccia `Mappe di reparto` è possibile creare delle mappe interattive 
 
 Il riquadro **M2** è composto da due tabs.
 
-Tramite un grafico a torta ![img](icon-linea.png) è possibile visionare la situazione di tutte le macchine presenti nella mappa:
+Tramite un grafico a torta ![img](./media/icon-linea.png) è possibile visionare la situazione di tutte le macchine presenti nella mappa:
 
-![img](mappa-reparto-grafico-torta.png)
+![img](./media/mappa-reparto-grafico-torta.png)
 
-![img](icon-macchina.png) per visionare tutti i dati inerenti alla macchina selezionata.
+![img](./media/icon-macchina.png) per visionare tutti i dati inerenti alla macchina selezionata.
 
-![img](mappa-reparto-tabella-riepilogo.png)
+![img](./media/mappa-reparto-tabella-riepilogo.png)
 
 - I tasti **M3** e **M4** permettono di zoomare il sinottico avanti e indietro; mentre il tasto **M5** abilita la funzione "PAN", ossia trasforma il cursore dell'applicazione in una mano. Il PAN permette di muovere l'immagine, in particolare quando essa viene zoomata. Tutte le modifiche visive apportate tramite i tasti **M3**, **M4** ed **M5** sono ripristinabili tramite il tasto **M6**. È possibile associare uno o più sinottici a ogni macchina; l'elenco delle viste disponibili è presente nel menu a tendina tasti **M7**. Tramite i tasti **M8**, **M9** e **M10** è possibile:
 
-- ![img](icon-nuovo-sinottico.png) **M8** creare un nuovo sinottico.
+- ![img](./media/icon-nuovo-sinottico.png) **M8** creare un nuovo sinottico.
 
-- ![img](icon-elimina-sinottico.png) **M9** eliminare un sinottico presente nella lista **M7**.
+- ![img](./media/icon-elimina-sinottico.png) **M9** eliminare un sinottico presente nella lista **M7**.
 
-- ![img](icon-modifica-sinottico.png) **M10** modificare un sinottico esistente presente nella lista **M7**.
+- ![img](./media/icon-modifica-sinottico.png) **M10** modificare un sinottico esistente presente nella lista **M7**.
 
 ### CREARE UN NUOVO SINOTTICO
 
@@ -505,27 +505,27 @@ Ecco un esempio guida che mostra come creare un sinottico e associarlo ai macchi
 
 Si desidera ottenere come risultato finale il seguente sinottico
 
-![img](mappa-reparto-immagine-risultato.png)
+![img](./media/mappa-reparto-immagine-risultato.png)
 
 > [!Note]
 > L'immagine rappresentante la nostra linea, sezione o reparto su cui andare a disegnare è il prerequisito fondamentale di questo esempio. Nota: l'immagine nell'esempio sarà da ora in avanti denominata **IMMBKG**:
 
-![img](mappa-reparto-immagine-sfondo.jpeg)
+![img](./media/mappa-reparto-immagine-sfondo.jpeg)
 
 Ora che si ha l'immagine a disposizione si proceda a creare il sinottico.
 
 1. Selezionare la macchina cui sarà associato il sinottico dall'albero nodi
-2. ![img](mappa-reparto-selezione-macchina.png)
-3. Cliccare sul tasto ![img](icon-nuovo-sinottico.png) **M8** per creare un nuovo sinottico
+2. ![img](./media/mappa-reparto-selezione-macchina.png)
+3. Cliccare sul tasto ![img](./media/icon-nuovo-sinottico.png) **M8** per creare un nuovo sinottico
 4. Assegnare un nome alla nuova vista (es: Sin01)
-  ![img](image257.png)
+  ![img](./media/image257.png)
 5. Ora si ha a disposizione un ambiente di sviluppo nel quale è possibile "disegnare" il sinottico
 
 #### AMBIENTE DI SVILUPPO SINOTTICI
 
 L'ambiente di sviluppo dei sinottici è il seguente:
 
-![img](mappa-reparto-ambiente-di-sviluppo.png)
+![img](./media/mappa-reparto-ambiente-di-sviluppo.png)
 
 - **S1** È l'area in cui è possibile disegnare il sinottico
 - **S2** Pannello delle proprietà degli elementi selezionati in **S1**. In mancanza di elementi, si utilizzino le proprietà dello stesso **S1**
@@ -542,14 +542,14 @@ Se l'immagine dovesse risultare più grande rispetto al sinottico, allora potrem
 
 Il risultato ottenuto è il seguente:
 
-![img](mappa-reparto-ambiente-sviluppo-sfondo.jpg)
+![img](./media/mappa-reparto-ambiente-sviluppo-sfondo.jpg)
 
 Ora creiamo delle linee di delimitazione della macchina:
 
 1. Cliccare con il tasto destro del mouse nel sinottico: sul menu che apparirà cliccare su `Shape` 🡪 `Polyline`. Questa operazione permette di disegnare una serie di righe congiunte a vostro piacimento
-  ![img](mappa-reparto-ambiente-sviluppo-crea-polilinea.png)
+  ![img](./media/mappa-reparto-ambiente-sviluppo-crea-polilinea.png)
 2. Cliccare con il tasto sinistro nel punto in cui si desidera che parta la *polilinea* **V1**, poi eseguire un clic per ogni vertice (**V2**, **V3**) che si desidera creare. Per terminare la creazione della `polilinea` cliccare con il tasto destro del mouse sull'ultimo vertice **V4**.
-  ![img](mappa-reparto-ambiente-sviluppo-applicazione-polilinea.png)
+  ![img](./media/mappa-reparto-ambiente-sviluppo-applicazione-polilinea.png)
 3. Ora desideriamo cambiare colore, formato e spessore della linea appena creata. Clicchiamo sopra la linea per selezionarla; poi, nel pannello delle sue proprietà, agiamo sui seguenti parametri:
    1. `Aspetto` 🡪 `LineStyle` 🡪 `LineColor`: scegliere il colore desiderato, ad esempio ciano.
    2. `Aspetto` 🡪 `LineStyle` 🡪 `DashStyle`: DashDot
@@ -557,23 +557,23 @@ Ora creiamo delle linee di delimitazione della macchina:
 
 Il risultato ottenuto sarà il seguente:
 
-![img](mappa-reparto-ambiente-sviluppo-polilinea-con-stili.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-polilinea-con-stili.png)
 
 In questo modo, replicando l'operazione su tutto il disegno, otteniamo quanto segue:
 
-![img](mappa-reparto-ambiente-sviluppo-polilinee-con-stili.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-polilinee-con-stili.png)
 
-A questo punto possiamo procedere con l'inserimento delle macchine. Cliccare sul tasto **S3** ![img](icon-mappa-reparto-scelta-macchine.png) per fare aprire il seguente elenco:
+A questo punto possiamo procedere con l'inserimento delle macchine. Cliccare sul tasto **S3** ![img](./media/icon-mappa-reparto-scelta-macchine.png) per fare aprire il seguente elenco:
 
-![img](mappa-reparto-ambiente-sviluppo-scelta-macchine.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-scelta-macchine.png)
 
 Questo è l'elenco di tutte le macchine disponibili a essere importate nel sinottico. Per importarne una, eseguire doppio click sul nome. Questa operazione rende disponibile nel sinottico un rettangolo interattivo che rappresenta la macchina prescelta.
 
-![img](mappa-reparto-ambiente-sviluppo-riquadro-macchina.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-riquadro-macchina.png)
 
 Ciò che si desidera ottenere è il seguente effetto grafico:
 
-![img](mappa-reparto-ambiente-sviluppo-stile-riquadro-macchina.png) 🡪 ![alt text](mappa-reparto-ambiente-sviluppo-stile-finale-riquadro-macchina.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-stile-riquadro-macchina.png) 🡪 ![alt text](./media/mappa-reparto-ambiente-sviluppo-stile-finale-riquadro-macchina.png)
 
 Cliccare una volta sul rettangolo per selezionarlo (una volta selezionato il bordo diventa di colore verde) così da agire sulle sue proprietà GENERALI, dove si potranno cambiare sia il font che la descrizione interna.
 
@@ -581,16 +581,16 @@ Cliccare una volta sul rettangolo per selezionarlo (una volta selezionato il bor
 2. `Varie` 🡪 `LabelFont` 🡪 `Size`: 15
    Cliccando la seconda volta sul quadrato è possibile andare a modificare le proprietà grafiche del rettangolo stesso
 3. `Aspetto` 🡪 `ShadowStyle`: cliccare su …
-   ![img](proprietà-shadowstyle.png)
+   ![img](./media/proprietà-shadowstyle.png)
    Nella maschera che si è attivata potremmo applicare un'ombra prospettica al quadrato della macchina, e anche decidere i colori da applicare.
-   ![img](stili-proprietà-shadowstyle.png)
+   ![img](./media/stili-proprietà-shadowstyle.png)
    Tramite i tasti **C2** e **C3** possiamo selezionare i colori dell'ombra, creando un effetto *shadow*, ossia la sfumatura dell'ombra che parte da un colore e termina con un altro. Applicando la spunta su **C5** possiamo vedere il risultato in **C1**, in tempo reale. Tramite i tasti **C4** e **C5** possiamo eseguire un `offset` dell'ombra.
 4. `Bounds` 🡪 `Size` 🡪 `Height`: 50
 5. `Bounds` 🡪 `Size` 🡪 `Width`: 120
 
 Il risultato ottenuto è il seguente:
 
-![img](mappa-reparto-risultato-macchina.png)
+![img](./media/mappa-reparto-risultato-macchina.png)
 
 > [!Note]
 > Il colore dello sfondo non è applicabile dall'utente, in quanto varia a seconda dello stato della macchina.**
@@ -610,22 +610,22 @@ Il risultato ottenuto è il seguente:
 
 Replicando le operazioni appena descritte per tutte le macchine presenti nell'immagine, il risultato ottenuto è il seguente:
 
-![img](mappa-reparto-risultato-finale.png)
+![img](./media/mappa-reparto-risultato-finale.png)
 
 Ora, come ultimo passaggio, possiamo creare delle righe che collegano le macchine con le zone in cui esse sono ubicate.
 
 Cliccando con il tasto destro sul sinottico, selezionare dal menu contestuale la voce `Shapes` 🡪 `Line`
 
-![img](mappa-reparto-ambiente-sviluppo-nuova-linea.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-nuova-linea.png)
 
 Disegnare una linea (come descritto in precedenza per la `polilinea`) che colleghi il quadrato della macchina con la sua zona, in modo da ottenere il seguente risultato:
 
-![img](mappa-reparto-ambiente-sviluppo-crea-linee-collegamento.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-crea-linee-collegamento.png)
 
 Replicando la procedura appena descritta per tutte le macchine, il risultato ottenuto sarà il seguente:
 
-![img](mappa-reparto-ambiente-sviluppo-linee-collegamento-risultato.png)
+![img](./media/mappa-reparto-ambiente-sviluppo-linee-collegamento-risultato.png)
 
-Cliccare sul tasto ![img](icon-modifica-sinottico.png) **M10** per salvare il lavoro appena eseguito.
+Cliccare sul tasto ![img](./media/icon-modifica-sinottico.png) **M10** per salvare il lavoro appena eseguito.
 
 Ora il sinottico è pronto per essere utilizzato.

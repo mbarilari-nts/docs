@@ -10,6 +10,7 @@ All'avvio di **MASTER Factory®** apparirà la maschera di login, dove ogni oper
 
 - MEDIANTE CODICE PIN (corrispondente alla concatenazione del codice utente e della password. Ad esempio, ipotizzando un codice utente 001 e una password 'pass', il PIN sarebbe 001pass).
 - MEDIANTE USERNAME E PASSWORD UTENTE
-![img](accesso.png))
+](./media/a
+![img](accesso.png))
 
 Per eseguire l'accesso cliccare sul tasto `OK`.
