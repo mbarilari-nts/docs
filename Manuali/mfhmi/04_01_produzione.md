@@ -270,7 +270,7 @@ Una volta che l'UDC è stato creato, si potrà inserire l'UDM nella modalità de
 Il tasto **Pr7** `rettifica` è attivo solo quando si seleziona un UDM che non è impegnato (non è presente il simbolo ![img](icon-lucchetto.png)) in alcun ordine; questo permette di modificare la quantità di materiale **Pr.D1**
 precedentemente associato e assegnare la causale **Pr.D2**. Qui di seguito è mostrata la maschera per eseguire quanto descritto.
 
-![img](media/mfhmi/rettifica.png)
+![img](rettifica.png)
 
 Nel campo **Pr.D1** `Rettifica Quantità`, inserire il nuovo quantitativo e poi cliccare su **Pr.D3** `Conferma` per validare e rendere attiva la modifica. Questa operazione è necessaria nel caso in cui si rilevino delle incongruenze tra il quantitativo indicato nell'UDM e l'effettiva quantità fisica dell'UDM stesso.
 

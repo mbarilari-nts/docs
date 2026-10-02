@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manuali/mfweb/03_gestione_griglie.md",
+                "file": "masterfactory/hmi-changelog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03_gestione_griglie"
+              "title": "hmi-changelog"
             }
           }
         ]
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manuali/mfweb/03_gestione_griglie.md",
+                "file": "masterfactory/hmi-changelog.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,17 +196,18 @@
   },
   "active": "1fed7cc3df18d21b",
   "lastOpenFiles": [
+    "Manuali/mfweb/03_gestione_griglie.md",
     "Manuali/mfhmi/01_accesso_a_master_factory.md",
-    "media/mfweb/lista-fasi-run.png",
-    "media/mfweb/image21.png",
-    "media/mfweb/image1.png",
-    "media/mfweb/icon-conferma.png",
-    "media/mfweb/icon-conferma-scarto.png",
-    "media/mfweb/icon-aggiungi.png",
-    "media/mfweb/griglie.png",
-    "media/mfweb/griglie-personalizza-layout.png",
-    "media/mfweb/freccia-dx.png",
-    "media/mfweb/elenco-personale.png",
+    "Manuali/mfweb/media/lista-fasi-run.png",
+    "Manuali/mfweb/media/image21.png",
+    "Manuali/mfweb/media/image1.png",
+    "Manuali/mfweb/media/icon-conferma.png",
+    "Manuali/mfweb/media/icon-conferma-scarto.png",
+    "Manuali/mfweb/media/icon-aggiungi.png",
+    "Manuali/mfweb/media/griglie.png",
+    "Manuali/mfweb/media/griglie-personalizza-layout.png",
+    "Manuali/mfweb/media/freccia-dx.png",
+    "Manuali/mfweb/media/elenco-personale.png",
     "Manuali/mfweb/manuale-master-factory-web.md",
     "Manuali/mfweb/MANUALE MASTERFACTORY WEB v2025.docx",
     "Manuali/mfweb/05_contenitore_principale.md",
@@ -214,7 +215,6 @@
     "Manuali/mfhmi/home.md",
     "Manuali/mfhmi/04_08_configurazione.md",
     "Manuali/mfweb/02_interfaccia_operatore.md",
-    "Manuali/mfweb/03_gestione_griglie.md",
     "Manuali/mfweb/01_accesso_a_master_factory_web.md",
     "Manuali/mfhmi/99_Appendice.md",
     "Manuali/mfhmi/04_menu.md",
@@ -234,8 +234,8 @@
     "Senza nome.canvas",
     "media",
     "masterfactory/hmi-changelog.md",
-    "media/mfweb",
-    "media/mfhmi",
+    "Manuali/mfweb/media",
+    "Manuali/mfhmi/media",
     "Nuovo Documento di testo.txt"
   ]
 }
